@@ -1,0 +1,68 @@
+12-21 18:27:15.223 I/ActivityManager( 1182): Start proc com.djr.zichanjia for activity com.djr.zichanjia/.activity.SplashActivity: pid=26591 uid=10563 gids={50563, 1028, 1015, 3003}
+12-21 18:27:15.373 W/Settings(26591): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+12-21 18:27:15.383 W/Settings(26591): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+12-21 18:27:15.453 I/dalvikvm-heap(26591): Grow heap (frag case) to 20.283MB for 8294416-byte allocation
+12-21 18:27:15.503 I/ActivityManager(26591): Timeline: Activity_launch_request id:com.djr.zichanjia time:6104587
+12-21 18:27:15.503 I/ActivityManager( 1182): START u0 {cmp=com.djr.zichanjia/.activity.WelcomeActivity} from pid 26591
+12-21 18:27:15.503 I/ActivityManager( 1182): startPausingLocked, prev=ActivityRecord{428f17f0 u0 com.djr.zichanjia/.activity.SplashActivity t22}, isapp=true, next=ActivityRecord{42934da8 u0 com.djr.zichanjia/.activity.WelcomeActivity t22}, prev.app=ProcessRecord{42878ae8 26591:com.djr.zichanjia/u0a563}, next.app=null, prev.task=TaskRecord{432bdd68 #22 A=com.djr.zichanjia U=0 sz=2}, next.task=TaskRecord{432bdd68 #22 A=com.djr.zichanjia U=0 sz=2}
+12-21 18:27:15.513 I/ActivityManager( 1182): Start proc com.djr.zichanjia:push for service com.djr.zichanjia/com.umeng.message.UmengIntentService: pid=26613 uid=10563 gids={50563, 1028, 1015, 3003}
+12-21 18:27:15.563 W/ProxyFactroy(26613): instance_base
+12-21 18:27:15.563 W/ProxyFactroy(26613): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at java.lang.Class.classForName(Native Method)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at java.lang.Class.forName(Class.java:251)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at java.lang.Class.forName(Class.java:216)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at android.os.Looper.loop(Looper.java:136)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-21 18:27:15.563 W/ProxyFactroy(26613): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	... 10 more
+12-21 18:27:15.563 W/ProxyFactroy(26613): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-21 18:27:15.563 W/ProxyFactroy(26613): 	... 10 more
+12-21 18:27:15.593 I/dalvikvm-heap(26591): Grow heap (frag case) to 31.364MB for 8294416-byte allocation
+12-21 18:27:15.633 I/dalvikvm-heap(26591): Grow heap (frag case) to 39.274MB for 8294416-byte allocation
+12-21 18:27:15.683 W/ProxyFactroy(26613): instance_base
+12-21 18:27:15.683 W/ProxyFactroy(26613): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at java.lang.Class.classForName(Native Method)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at java.lang.Class.forName(Class.java:251)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at java.lang.Class.forName(Class.java:216)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at android.os.Looper.loop(Looper.java:136)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-21 18:27:15.683 W/ProxyFactroy(26613): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	... 10 more
+12-21 18:27:15.683 W/ProxyFactroy(26613): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-21 18:27:15.683 W/ProxyFactroy(26613): 	... 10 more
+12-21 18:27:15.693 I/Adreno-EGL(26591): <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.1.5.04.04.02.076.008_msm8974_LNX.LA.3.5.1.5__release_AU ()
+12-21 18:27:15.693 I/Adreno-EGL(26591): OpenGL ES Shader Compiler Version: E031.24.00.09
+12-21 18:27:15.693 I/Adreno-EGL(26591): Build Date: 06/12/14 Thu
+12-21 18:27:15.693 I/Adreno-EGL(26591): Local Branch: mybranch3550557
+12-21 18:27:15.693 I/Adreno-EGL(26591): Remote Branch: quic/LNX.LA.3.5.1.5
+12-21 18:27:15.693 I/Adreno-EGL(26591): Local Patches: NONE
+12-21 18:27:15.693 I/Adreno-EGL(26591): Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.1.5.04.04.02.076.008 +  NOTHING
+12-21 18:27:15.763 I/ActivityManager(26591): Timeline: Activity_idle id: android.os.BinderProxy@4271cec0 time:6104840
+12-21 18:27:15.773 I/dalvikvm(26591): Total arena pages for JIT: 11
+12-21 18:27:15.773 I/dalvikvm(26591): Total arena pages for JIT: 12
+12-21 18:27:15.773 I/dalvikvm(26591): Total arena pages for JIT: 13
+12-21 18:27:15.773 I/dalvikvm(26591): Total arena pages for JIT: 14
+12-21 18:27:18.193 I/ActivityManager(26591): Timeline: Activity_launch_request id:com.djr.zichanjia time:6107279
+12-21 18:27:18.203 I/ActivityManager( 1182): START u0 {cmp=com.djr.zichanjia/.activity.MainActivity} from pid 26591
+12-21 18:27:18.203 I/ActivityManager( 1182): startPausingLocked, prev=ActivityRecord{42934da8 u0 com.djr.zichanjia/.activity.WelcomeActivity t22}, isapp=true, next=ActivityRecord{42a9af58 u0 com.djr.zichanjia/.activity.MainActivity t22}, prev.app=ProcessRecord{42878ae8 26591:com.djr.zichanjia/u0a563}, next.app=null, prev.task=TaskRecord{432bdd68 #22 A=com.djr.zichanjia U=0 sz=2}, next.task=TaskRecord{432bdd68 #22 A=com.djr.zichanjia U=0 sz=2}
+12-21 18:27:18.373 W/dalvikvm(26591): VFY: unable to find class referenced in signature (Ljava/nio/file/Path;)
+12-21 18:27:18.373 W/dalvikvm(26591): VFY: unable to find class referenced in signature ([Ljava/nio/file/OpenOption;)
+12-21 18:27:18.373 I/dalvikvm(26591): Could not find method java.nio.file.Files.newOutputStream, referenced from method okio.d.sink
+12-21 18:27:18.373 W/dalvikvm(26591): VFY: unable to resolve static method 50003: Ljava/nio/file/Files;.newOutputStream (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;
+12-21 18:27:18.373 W/dalvikvm(26591): VFY: un

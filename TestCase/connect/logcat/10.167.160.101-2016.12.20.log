@@ -1,0 +1,103 @@
+12-20 17:52:49.555 I/ActivityManager(  821): Start proc com.djr.zichanjia for activity com.djr.zichanjia/.activity.SplashActivity: pid=10101 uid=10511 gids={50511, 1028, 1015, 1023, 3003}
+12-20 17:52:49.579 I/libPerfService(  821): set_rootgroup - tid: 10101
+12-20 17:52:49.626 E/SQLiteLog(10101): (10) Failed to do file read, got: 0, amt: 100, last Errno: 2
+12-20 17:52:49.626 E/SQLiteLog(10101): 
+12-20 17:52:49.702 W/MediatekClassFactory(10101): Tablet not exist!, Get obj from default class
+12-20 17:52:49.735 W/Provider/Settings(10101): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+12-20 17:52:49.758 W/Provider/Settings(10101): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+12-20 17:52:49.933 I/ActivityManager(  821): START u0 {cmp=com.djr.zichanjia/.activity.WelcomeActivity} from pid 10101
+12-20 17:52:49.933 E/ActivityManager(  821): START {cmp=com.djr.zichanjia/.activity.WelcomeActivity u=0} from pid 10101
+12-20 17:52:49.953 I/ActivityManager(  821): Start proc com.djr.zichanjia:push for service com.djr.zichanjia/com.umeng.message.UmengIntentService: pid=10130 uid=10511 gids={50511, 1028, 1015, 1023, 3003}
+12-20 17:52:49.999 W/ProxyFactroy(10130): instance_base
+12-20 17:52:49.999 W/ProxyFactroy(10130): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at java.lang.Class.classForName(Native Method)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at java.lang.Class.forName(Class.java:251)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at java.lang.Class.forName(Class.java:216)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at android.os.Looper.loop(Looper.java:193)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-20 17:52:49.999 W/ProxyFactroy(10130): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	... 10 more
+12-20 17:52:49.999 W/ProxyFactroy(10130): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-20 17:52:49.999 W/ProxyFactroy(10130): 	... 10 more
+12-20 17:52:50.075 E/SQLiteLog(10101): (10) Failed to do file read, got: 0, amt: 100, last Errno: 2
+12-20 17:52:50.075 E/SQLiteLog(10101): 
+12-20 17:52:51.024 I/SurfaceFlinger(  248): EventThread Client Pid (10101) created
+12-20 17:52:51.081 W/ProxyFactroy(10130): instance_base
+12-20 17:52:51.081 W/ProxyFactroy(10130): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at java.lang.Class.classForName(Native Method)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at java.lang.Class.forName(Class.java:251)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at java.lang.Class.forName(Class.java:216)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at android.os.Looper.loop(Looper.java:193)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-20 17:52:51.081 W/ProxyFactroy(10130): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	... 10 more
+12-20 17:52:51.081 W/ProxyFactroy(10130): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-20 17:52:51.081 W/ProxyFactroy(10130): 	... 10 more
+12-20 17:52:51.096 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.WelcomeActivity](this:0xb8b51940,id:689,api:1,p:10101,c:248) connect: api=1 producer=(10101:com.djr.zichanjia) producerControlledByApp=true
+12-20 17:52:51.096 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.WelcomeActivity](this:0xb8b51940,id:689,api:1,p:10101,c:248) new GraphicBuffer needed
+12-20 17:52:51.153 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.WelcomeActivity](this:0xb8b51940,id:689,api:1,p:10101,c:248) new GraphicBuffer needed
+12-20 17:52:51.388 I/System.out(10101): propertyValue:true
+12-20 17:52:51.388 I/System.out(10101): [socket][0] connection alog.umeng.com/110.173.196.36:80;LocalPort=59826(10000)
+12-20 17:52:51.388 I/System.out(10101): [CDS]connect[alog.umeng.com/110.173.196.36:80] tm:10
+12-20 17:52:54.017 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.WelcomeActivity](this:0xb8b51940,id:689,api:1,p:10101,c:248) queueBuffer: fps=0.35 dur=2863.86 max=2863.86 min=2863.86
+12-20 17:52:54.017 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.WelcomeActivity](this:0xb8b51940,id:689,api:1,p:10101,c:248) new GraphicBuffer needed
+12-20 17:52:54.024 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.WelcomeActivity](this:0xb8b51940,id:689,api:1,p:10101,c:248) new GraphicBuffer needed
+12-20 17:52:55.086 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.WelcomeActivity](this:0xb8b51940,id:689,api:1,p:10101,c:248) queueBuffer: fps=34.61 dur=1069.08 max=461.20 min=7.78
+12-20 17:52:55.921 I/ActivityManager(  821): START u0 {cmp=com.djr.zichanjia/.activity.MainActivity} from pid 10101
+12-20 17:52:55.921 E/ActivityManager(  821): START {cmp=com.djr.zichanjia/.activity.MainActivity u=0} from pid 10101
+12-20 17:52:56.086 I/System.out(10101): [CDS]rx timeout:60000
+12-20 17:52:56.086 I/System.out(10101): [socket][1] connection /10.167.201.176:9090;LocalPort=60667(60000)
+12-20 17:52:56.086 I/System.out(10101): [CDS]connect[/10.167.201.176:9090] tm:60
+12-20 17:52:56.102 W/ProxyFactroy(10130): instance_base
+12-20 17:52:56.102 W/ProxyFactroy(10130): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at java.lang.Class.classForName(Native Method)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at java.lang.Class.forName(Class.java:251)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at java.lang.Class.forName(Class.java:216)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at android.os.Looper.loop(Looper.java:193)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-20 17:52:56.102 W/ProxyFactroy(10130): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	... 10 more
+12-20 17:52:56.102 W/ProxyFactroy(10130): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-20 17:52:56.102 W/ProxyFactroy(10130): 	... 10 more
+12-20 17:52:56.112 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8b2f8d0,id:690,api:1,p:10101,c:248) connect: api=1 producer=(10101:com.djr.zichanjia) producerControlledByApp=true
+12-20 17:52:56.112 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8b2f8d0,id:690,api:1,p:10101,c:248) new GraphicBuffer needed
+12-20 17:52:56.145 I/System.out(10101): [socket][/10.167.160.101:60667] connected
+12-20 17:52:56.146 W/dalvikvm(10101): VFY: unable to find class referenced in signature (Ljava/nio/file/Path;)
+12-20 17:52:56.146 W/dalvikvm(10101): VFY: unable to find class referenced in signature ([Ljava/nio/file/OpenOption;)
+12-20 17:52:56.146 I/dalvikvm(10101): Could not find method java.nio.file.Files.newOutputStream, referenced from method okio.d.sink
+12-20 17:52:56.146 W/dalvikvm(10101): VFY: unable to resolve static method 50003: Ljava/nio/file/Files;.newOutputStream (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;
+12-20 17:52:56.146 W/dalvikvm(10101): VFY: unable to find class referenced in signature (Ljava/nio/file/Path;)
+12-20 17:52:56.147 W/dalvikvm(10101): VFY: unable to find class referenced in signature ([Ljava/nio/file/OpenOption;)
+12-20 17:52:56.147 I/dalvikvm(10101): Could not find method java.nio.file.Files.newInputStream, referenced from method okio.d.source
+12-20 17:52:56.147 W/dalvikvm(10101): VFY: unable to resolve static method 50002: Ljava/nio/file/Files;.newInputStream (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
+12-20 17:52:56.147 I/System.out(10101): [CDS]rx timeout:60000
+12-20 17:52:56.155 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8b5d3c8,id:691,api:1,p:10101,c:248) connect: api=1 producer=(10101:com.djr.zichanjia) producerControlledByApp=true
+12-20 17:52:56.155 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8b5d3c8,id:691,api:1,p:10101,c:248) new GraphicBuffer needed
+12-20 17:52:56.179 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8b2f8d0,id:690,api:1,p:10101,c:248) new GraphicBuffer needed
+12-20 17:52:56.205 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8b5d3c8,id:691,api:1,p:10101,c:248) new GraphicBuffer needed
+12-20 17:52:56.231 I/BufferQueue(  248): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8b5d3c8,id:691,api:1,p:10101,c:248) new GraphicBuffer needed
+12-20 17:52:56.390 E/Home    (10101): {"status":"1","message":"成功","data":{"standardPowderInfo":[{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"B3","p_last_deadline":12,"m_rate":9.96,"m_project":21,"m_full_time":"2016-12-13 10:58:07","m_project_no_fouiou":"0021822000000020059","p_project_status":"7","m_rated_money":46720.00,"m_id_no":"130922198912301221","p_project_money":46720.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-13 10:58:07","p_stop_days":3,"m_create_time":"2016-12-13 10:54:57","m_is_flow":"0","m_status":"2","m_product_type":"4","p_buy_type":"1","m_id":28,"p_plan_type":"0","m_start_time":"2016-12-13 10:56:18","m_off_time":"2016-12-16 10:56:10","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-13 10:55:38","m_project_status":"7","m_money":46720.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"0","p_project_name":"信用贷201612131054570287092","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03520100670","p_inserting_time":"2016-12-16 10:56:10","qqq":0.99997859634853706042,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":60,"m_is_earlyback":"0","m_debt_equity":46720.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-13 10:56:18","p_increace_money":100.00,"m_name":"信用贷201612131054570287092","m_number":"03520100670","p_rated_money":46720.00,"m_supple_money":0.00,"m_parent_id":28,"p_rating_money":0.00,"p_id":21,"m_is_overdue":"0"},{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":3,"m_rate":6.96,"m_project":11,"m_full_time":"2016-12-12 13:12:09","m_project_no_fouiou":"0021822000000020024","p_project_status":"7","m_rated_money":21400.00,"m_id_no":"230221195504100434","p_project_money":21400.00,"p_backmoney_way":"1","p_project_rate":6.96,"p_ratefull_time":"2016-12-12 13:12:09","p_stop_days":3,"m_create_time":"2016-12-12 13:04:01","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":14,"p_plan_type":"0","m_start_time":"2016-12-12 13:05:45","m_off_time":"2016-12-14 13:05:37","p_project_deadline":3,"m_way":"1","p_create_time":"2016-12-12 13:05:21","m_project_status":"7","m_money":21400.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"0","p_project_name":"信用贷201612121304014189694","m_deadline":3,"p_interest_back_way":"0","p_project_number":"13110101206","p_inserting_time":"2016-12-14 13:05:37","qqq":0.99995327321153217139,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":14,"m_is_earlyback":"0","m_debt_equity":21400.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-12 13:05:45","p_increace_money":100.00,"m_name":"信用贷201612121304014189694","m_number":"13110101206","p_rated_money":21400.00,"m_supple_money":0.00,"m_parent_id":14,"p_rating_money":0.00,"p_id":11,"m_is_overdue":"0"},{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":3,"m_rate":6.96,"m_project":4,"m_full_time":"2016-12-10 14:49:32","m_project_no_fouiou":"0021822000000019992","p_project_status":"7","m_rated_money":21400.00,"m_id_no":"410822198807243527","p_project_money":21400.00,"p_backmoney_way":"1","p_project_rate":6.96,"p_ratefull_time":"2016-12-10 14:49:32","p_stop_days":3,"m_create_time":"2016-12-09 15:54:03","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":8,"p_plan_type":"0","m_start_time":"2016-12-10 14:22:25","m_off_time":"2016-12-11 14:24:21","p_project_deadline":3,"m_way":"1","p_create_time":"2016-12-10 14:21:41","m_project_status":"7","m_money":21400.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612091554030404631","m_deadline":3,"p_interest_back_way":"0","p_project_number":"03110102045","p_inserting_time":"2016-12-11 14:24:21","qqq":0.99995327321153217139,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":13,"m_is_earlyback":"0","m_debt_equity":21400.00,"p_start_investmoney

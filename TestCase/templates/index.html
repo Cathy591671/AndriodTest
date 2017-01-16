@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<form enctype="multipart/form-data" action="/upload_file/" method="post">
+   上传测试包：<input type="file" name="apk" />
+   <br/>
+    上传ip文件：<input type="file" name="ip" />
+   <br/>
+    上传配置文件：<input type="file" name="config" />
+   <br/>
+   <input type="submit" value="upload"/>
+</form>
+<form enctype="multipart/form-data" action="/run/" method="post" name="mainform">
+   <input type="submit" value="开始"/>
+    <br/>
+     <label><input name="install" type="radio" value="1" />卸载安装 </label>
+    <label><input name="install" type="radio" value="2" />覆盖安装</label>
+</form>
+
+<br/>
+
+</body>
+</html>

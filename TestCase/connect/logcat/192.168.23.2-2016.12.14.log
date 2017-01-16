@@ -1,0 +1,104 @@
+12-14 18:19:28.187 I/ActivityManager( 1106): Start proc com.djr.zichanjia for activity com.djr.zichanjia/.activity.SplashActivity: pid=4300 uid=10552 gids={50552, 1028, 1015, 3003}
+12-14 18:19:28.337 W/Settings( 4300): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+12-14 18:19:28.347 W/Settings( 4300): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+12-14 18:19:28.437 I/dalvikvm-heap( 4300): Grow heap (frag case) to 20.283MB for 8294416-byte allocation
+12-14 18:19:28.497 I/ActivityManager( 4300): Timeline: Activity_launch_request id:com.djr.zichanjia time:14714157
+12-14 18:19:28.497 I/ActivityManager( 1106): START u0 {cmp=com.djr.zichanjia/.activity.WelcomeActivity} from pid 4300
+12-14 18:19:28.507 I/ActivityManager( 1106): startPausingLocked, prev=ActivityRecord{431246b8 u0 com.djr.zichanjia/.activity.SplashActivity t37}, isapp=true, next=ActivityRecord{43152ff8 u0 com.djr.zichanjia/.activity.WelcomeActivity t37}, prev.app=ProcessRecord{43211438 4300:com.djr.zichanjia/u0a552}, next.app=null, prev.task=TaskRecord{43454130 #37 A=com.djr.zichanjia U=0 sz=2}, next.task=TaskRecord{43454130 #37 A=com.djr.zichanjia U=0 sz=2}
+12-14 18:19:28.517 I/ActivityManager( 1106): Start proc com.djr.zichanjia:push for service com.djr.zichanjia/com.umeng.message.UmengIntentService: pid=4323 uid=10552 gids={50552, 1028, 1015, 3003}
+12-14 18:19:28.577 W/ProxyFactroy( 4323): instance_base
+12-14 18:19:28.577 W/ProxyFactroy( 4323): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at java.lang.Class.classForName(Native Method)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at java.lang.Class.forName(Class.java:251)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at java.lang.Class.forName(Class.java:216)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at android.os.Looper.loop(Looper.java:136)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	... 10 more
+12-14 18:19:28.577 W/ProxyFactroy( 4323): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-14 18:19:28.577 W/ProxyFactroy( 4323): 	... 10 more
+12-14 18:19:28.607 I/dalvikvm-heap( 4300): Grow heap (frag case) to 31.365MB for 8294416-byte allocation
+12-14 18:19:28.667 I/dalvikvm-heap( 4300): Grow heap (frag case) to 39.274MB for 8294416-byte allocation
+12-14 18:19:28.727 W/ProxyFactroy( 4323): instance_base
+12-14 18:19:28.727 W/ProxyFactroy( 4323): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at java.lang.Class.classForName(Native Method)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at java.lang.Class.forName(Class.java:251)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at java.lang.Class.forName(Class.java:216)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at android.os.Looper.loop(Looper.java:136)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	... 10 more
+12-14 18:19:28.727 W/ProxyFactroy( 4323): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-14 18:19:28.727 W/ProxyFactroy( 4323): 	... 10 more
+12-14 18:19:28.747 I/Adreno-EGL( 4300): <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LNX.LA.3.5.1.5.04.04.02.076.008_msm8974_LNX.LA.3.5.1.5__release_AU ()
+12-14 18:19:28.747 I/Adreno-EGL( 4300): OpenGL ES Shader Compiler Version: E031.24.00.09
+12-14 18:19:28.747 I/Adreno-EGL( 4300): Build Date: 06/12/14 Thu
+12-14 18:19:28.747 I/Adreno-EGL( 4300): Local Branch: mybranch3550557
+12-14 18:19:28.747 I/Adreno-EGL( 4300): Remote Branch: quic/LNX.LA.3.5.1.5
+12-14 18:19:28.747 I/Adreno-EGL( 4300): Local Patches: NONE
+12-14 18:19:28.747 I/Adreno-EGL( 4300): Reconstruct Branch: AU_LINUX_ANDROID_LNX.LA.3.5.1.5.04.04.02.076.008 +  NOTHING
+12-14 18:19:28.837 I/ActivityManager( 4300): Timeline: Activity_idle id: android.os.BinderProxy@425d2a50 time:14714498
+12-14 18:19:28.847 I/dalvikvm( 4300): Total arena pages for JIT: 11
+12-14 18:19:28.847 I/dalvikvm( 4300): Total arena pages for JIT: 12
+12-14 18:19:28.847 I/dalvikvm( 4300): Total arena pages for JIT: 13
+12-14 18:19:28.847 I/dalvikvm( 4300): Total arena pages for JIT: 14
+12-14 18:19:31.637 I/ActivityManager( 4300): Timeline: Activity_launch_request id:com.djr.zichanjia time:14717299
+12-14 18:19:31.647 I/ActivityManager( 1106): START u0 {cmp=com.djr.zichanjia/.activity.MainActivity} from pid 4300
+12-14 18:19:31.647 I/ActivityManager( 1106): startPausingLocked, prev=ActivityRecord{43152ff8 u0 com.djr.zichanjia/.activity.WelcomeActivity t37}, isapp=true, next=ActivityRecord{43169d38 u0 com.djr.zichanjia/.activity.MainActivity t37}, prev.app=ProcessRecord{43211438 4300:com.djr.zichanjia/u0a552}, next.app=null, prev.task=TaskRecord{43454130 #37 A=com.djr.zichanjia U=0 sz=2}, next.task=TaskRecord{43454130 #37 A=com.djr.zichanjia U=0 sz=2}
+12-14 18:19:31.787 W/dalvikvm( 4300): VFY: unable to find class referenced in signature (Ljava/nio/file/Path;)
+12-14 18:19:31.787 W/dalvikvm( 4300): VFY: unable to find class referenced in signature ([Ljava/nio/file/OpenOption;)
+12-14 18:19:31.787 I/dalvikvm( 4300): Could not find method java.nio.file.Files.newOutputStream, referenced from method okio.d.sink
+12-14 18:19:31.787 W/dalvikvm( 4300): VFY: unable to resolve static method 50003: Ljava/nio/file/Files;.newOutputStream (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;
+12-14 18:19:31.787 W/dalvikvm( 4300): VFY: unable to find class referenced in signature (Ljava/nio/file/Path;)
+12-14 18:19:31.787 W/dalvikvm( 4300): VFY: unable to find class referenced in signature ([Ljava/nio/file/OpenOption;)
+12-14 18:19:31.787 I/dalvikvm( 4300): Could not find method java.nio.file.Files.newInputStream, referenced from method okio.d.source
+12-14 18:19:31.787 W/dalvikvm( 4300): VFY: unable to resolve static method 50002: Ljava/nio/file/Files;.newInputStream (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
+12-14 18:19:31.787 W/ProxyFactroy( 4323): instance_base
+12-14 18:19:31.787 W/ProxyFactroy( 4323): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at java.lang.Class.classForName(Native Method)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at java.lang.Class.forName(Class.java:251)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at java.lang.Class.forName(Class.java:216)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at android.os.Looper.loop(Looper.java:136)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	... 10 more
+12-14 18:19:31.787 W/ProxyFactroy( 4323): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-14 18:19:31.787 W/ProxyFactroy( 4323): 	... 10 more
+12-14 18:19:31.867 E/Home    ( 4300): {"status":"1","message":"成功","data":{"standardPowderInfo":[{"xx":1,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":28,"m_project_no_fouiou":"0021822000000020065","p_project_status":"6","m_rated_money":7000.00,"m_id_no":"441882199301206013","p_project_money":62040.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_stop_days":3,"m_create_time":"2016-12-13 15:09:48","m_is_flow":"1","m_status":"1","m_product_type":"10","p_buy_type":"1","m_id":32,"m_start_time":"2016-12-14 09:16:36","m_off_time":"2016-12-15 09:16:27","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-14 09:16:12","m_project_status":"6","m_money":62040.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"0","p_project_name":"信用贷201612131509487377049","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03220102039","p_inserting_time":"2016-12-15 09:16:27","qqq":0.11282861333634209636,"p_buy_limit_money":1000000.00,"m_flow_time":"2016-12-14 09:14:04","m_copy_mark":1,"m_history_project":"23,","m_borrow_type":"1","m_debt_id":37,"m_is_earlyback":"0","m_debt_equity":62040.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-14 09:16:36","p_increace_money":100.00,"m_name":"信用贷201612131509487377049","m_number":"03220102039","p_rated_money":7000.00,"m_supple_money":0.00,"m_parent_id":32,"p_rating_money":55040.00,"p_id":28,"m_is_overdue":"0"},{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"B3","p_last_deadline":12,"m_rate":9.96,"m_project":21,"m_full_time":"2016-12-13 10:58:07","m_project_no_fouiou":"0021822000000020059","p_project_status":"7","m_rated_money":46720.00,"m_id_no":"130922198912301221","p_project_money":46720.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-13 10:58:07","p_stop_days":3,"m_create_time":"2016-12-13 10:54:57","m_is_flow":"0","m_status":"2","m_product_type":"4","p_buy_type":"1","m_id":28,"m_start_time":"2016-12-13 10:56:18","m_off_time":"2016-12-16 10:56:10","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-13 10:55:38","m_project_status":"7","m_money":46720.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"0","p_project_name":"信用贷201612131054570287092","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03520100670","p_inserting_time":"2016-12-16 10:56:10","qqq":0.99997859634853706042,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":60,"m_is_earlyback":"0","m_debt_equity":46720.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-13 10:56:18","p_increace_money":100.00,"m_name":"信用贷201612131054570287092","m_number":"03520100670","p_rated_money":46720.00,"m_supple_money":0.00,"m_parent_id":28,"p_rating_money":0.00,"p_id":21,"m_is_overdue":"0"},{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":3,"m_rate":6.96,"m_project":11,"m_full_time":"2016-12-12 13:12:09","m_project_no_fouiou":"0021822000000020024","p_project_status":"7","m_rated_money":21400.00,"m_id_no":"230221195504100434","p_project_money":21400.00,"p_backmoney_way":"1","p_project_rate":6.96,"p_ratefull_time":"2016-12-12 13:12:09","p_stop_days":3,"m_create_time":"2016-12-12 13:04:01","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":14,"m_start_time":"2016-12-12 13:05:45","m_off_time":"2016-12-14 13:05:37","p_project_deadline":3,"m_way":"1","p_create_time":"2016-12-12 13:05:21","m_project_status":"7","m_money":21400.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"0","p_project_name":"信用贷201612121304014189694","m_deadline":3,"p_interest_back_way":"0","p_project_number":"13110101206","p_inserting_time":"2016-12-14 13:05:37","qqq":0.99995327321153217139,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":14,"m_is_earlyback":"0","m_debt_equity":21400.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-12 13:05:45","p_increace_money":100.00,"m_name":"信用贷201612121304014189694","m_number":"13110101206","p_rated_money":21400.
+12-14 18:19:32.327 I/ActivityManager( 4300): Timeline: Activity_idle id: android.os.BinderProxy@429e8f68 time:14717988
+12-14 18:19:32.337 E/BASEACTIVITY( 4300): ++++++++++++++++++++++++++++++++++
+12-14 18:19:34.967 I/ActivityManager( 4300): Timeline: Activity_launch_request id:com.djr.zichanjia time:14720629
+12-14 18:19:34.977 I/ActivityManager( 1106): START u0 {cmp=com.djr.zichanjia/.activity.LoginActivity} from pid 4300
+12-14 18:19:34.977 I/ActivityManager( 1106): startPausingLocked, prev=ActivityRecord{43169d38 u0 com.djr.zichanjia/.activity.MainActivity t37}, isapp=true, next=ActivityRecord{431ed958 u0 com.djr.zichanjia/.activity.LoginActivity t37}, prev.app=ProcessRecord{43211438 4300:com.djr.zichanjia/u0a552}, next.app=null, prev.task=TaskRecord{43454130 #37 A=com.djr.zichanjia U=0 sz=2}, next.task=TaskRecord{43454130 #37 A=com.djr.zichanjia U=0 sz=2}
+12-14 18:19:35.107 E/gsc     ( 4300): ---------is_remmber_login_name is check
+12-14 18:19:35.117 W/ProxyFactroy( 4323): instance_base
+12-14 18:19:35.117 W/ProxyFactroy( 4323): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-14 18:19:35.117 W/ProxyFactroy( 4323): 	at java.lang.Class.classForName(Native Method)
+12-14 18:19:35.117 W/ProxyFactroy( 4323): 	at java.lang.Class.forName(Class.java:251)
+12-14 18:19:35.117 W/ProxyFactroy( 4323): 	at java.lang.Class.forName(Class.java:216)
+12-14 18:19:35.117 W/ProxyFactroy( 4323): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-14 18:19:35.117 W/ProxyFac

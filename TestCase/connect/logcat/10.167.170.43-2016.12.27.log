@@ -1,0 +1,806 @@
+12-27 16:54:33.746 I/ActivityManager(  814): Start proc com.djr.zichanjia for activity com.djr.zichanjia/.activity.SplashActivity: pid=11877 uid=10517 gids={50517, 1028, 1015, 1023, 3003}
+12-27 16:54:34.107 I/ActivityManager(  814): START u0 {cmp=com.djr.zichanjia/.activity.WelcomeActivity} from pid 11877
+12-27 16:54:34.107 E/ActivityManager(  814): START {cmp=com.djr.zichanjia/.activity.WelcomeActivity u=0} from pid 11877
+12-27 16:54:34.134 I/ActivityManager(  814): Start proc com.djr.zichanjia:push for service com.djr.zichanjia/com.umeng.message.UmengIntentService: pid=11900 uid=10517 gids={50517, 1028, 1015, 1023, 3003}
+12-27 16:54:37.717 I/ActivityManager(  814): START u0 {cmp=com.djr.zichanjia/.activity.MainActivity} from pid 11877
+12-27 16:54:37.717 E/ActivityManager(  814): START {cmp=com.djr.zichanjia/.activity.MainActivity u=0} from pid 11877
+12-27 16:54:40.146 I/ActivityManager(  814): START u0 {cmp=com.djr.zichanjia/.activity.LoginActivity} from pid 11877
+12-27 16:54:40.146 E/ActivityManager(  814): START {cmp=com.djr.zichanjia/.activity.LoginActivity u=0} from pid 11877
+12-27 16:54:40.257 E/gsc     (11877): ---------is_remmber_login_name is check
+12-27 16:54:40.276 W/ProxyFactroy(11900): instance_base
+12-27 16:54:40.276 W/ProxyFactroy(11900): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at java.lang.Class.classForName(Native Method)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:251)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:216)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at android.os.Looper.loop(Looper.java:193)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-27 16:54:40.276 W/ProxyFactroy(11900): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	... 10 more
+12-27 16:54:40.276 W/ProxyFactroy(11900): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-27 16:54:40.276 W/ProxyFactroy(11900): 	... 10 more
+12-27 16:54:40.315 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 16:54:40.315 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:54:40.384 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:54:40.740 E/BASEACTIVITY(11877): ++++++++++++++++++++++++++++++++++
+12-27 16:54:40.859 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:54:40.970 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:54:41.866 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.70 dur=1482.15 max=502.84 min=110.26
+12-27 16:54:42.875 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1009.76 max=517.19 min=492.57
+12-27 16:54:44.148 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44f2cb70, keyCode=KEYCODE_DEL, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34964125, downTime=34964125, deviceId=-1, source=0x101 }
+12-27 16:54:44.237 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44f4a298, keyCode=KEYCODE_DEL, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34964215, downTime=34964215, deviceId=-1, source=0x101 }
+12-27 16:54:44.257 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44f5c708, keyCode=KEYCODE_FORWARD_DEL, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34964239, downTime=34964239, deviceId=-1, source=0x101 }
+12-27 16:54:44.378 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1502.70 max=505.09 min=493.33
+12-27 16:54:45.393 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.97 dur=1014.74 max=524.98 min=489.77
+12-27 16:54:45.516 I/System.out(11877): [socket][2:60507] exception
+12-27 16:54:45.516 I/System.out(11877): [CDS]close[60507]
+12-27 16:54:45.516 I/System.out(11877): close [socket][/0.0.0.0:60507]
+12-27 16:54:45.558 I/System.out(11877): propertyValue:true
+12-27 16:54:45.558 I/System.out(11877): [socket][2] connection alog.umengcloud.com/140.205.156.81:80;LocalPort=53599(10000)
+12-27 16:54:45.558 I/System.out(11877): [CDS]connect[alog.umengcloud.com/140.205.156.81:80] tm:10
+12-27 16:54:45.603 I/System.out(11877): [socket][/10.167.170.43:53599] connected
+12-27 16:54:45.603 I/System.out(11877): [CDS]rx timeout:30000
+12-27 16:54:45.607 I/System.out(11877): [CDS]SO_SND_TIMEOUT:0
+12-27 16:54:45.710 I/System.out(11877): [CDS]close[53599]
+12-27 16:54:45.711 I/System.out(11877): close [socket][/0.0.0.0:53599]
+12-27 16:54:45.773 I/System.out(11877): [CDS][DNS]Unable to resolve host "www.localnetwork.uop": No address associated with hostname
+12-27 16:54:45.773 W/System.err(11877): java.net.UnknownHostException: Unable to resolve host "www.localnetwork.uop": No address associated with hostname
+12-27 16:54:45.774 W/System.err(11877): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:440)
+12-27 16:54:45.774 W/System.err(11877): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+12-27 16:54:45.774 W/System.err(11877): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+12-27 16:54:45.774 W/System.err(11877): 	at com.android.okhttp.internal.Dns$1.getAllByName(Dns.java:28)
+12-27 16:54:45.774 W/System.err(11877): 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:216)
+12-27 16:54:45.774 W/System.err(11877): 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:122)
+12-27 16:54:45.774 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:292)
+12-27 16:54:45.775 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+12-27 16:54:45.775 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+12-27 16:54:45.775 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:355)
+12-27 16:54:45.775 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:306)
+12-27 16:54:45.775 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:513)
+12-27 16:54:45.775 W/System.err(11877): 	at u.aly.am.a(NetworkHelper.java:279)
+12-27 16:54:45.775 W/System.err(11877): 	at u.aly.r.a(Sender.java:97)
+12-27 16:54:45.775 W/System.err(11877): 	at u.aly.ae.f(CacheImpl.java:292)
+12-27 16:54:45.775 W/System.err(11877): 	at u.aly.ae.a(CacheImpl.java:148)
+12-27 16:54:45.775 W/System.err(11877): 	at u.aly.ae.a(CacheImpl.java:108)
+12-27 16:54:45.775 W/System.err(11877): 	at u.aly.c$1.a(CacheService.java:45)
+12-27 16:54:45.775 W/System.err(11877): 	at com.umeng.analytics.g.run(SafeRunnable.java:8)
+12-27 16:54:45.775 W/System.err(11877): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+12-27 16:54:45.776 W/System.err(11877): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 16:54:45.777 W/System.err(11877): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:152)
+12-27 16:54:45.777 W/System.err(11877): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:265)
+12-27 16:54:45.777 W/System.err(11877): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+12-27 16:54:45.777 W/System.err(11877): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+12-27 16:54:45.777 W/System.err(11877): 	at java.lang.Thread.run(Thread.java:848)
+12-27 16:54:45.777 W/System.err(11877): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+12-27 16:54:45.779 W/System.err(11877): 	at libcore.io.Posix.getaddrinfo(Native Method)
+12-27 16:54:45.780 W/System.err(11877): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+12-27 16:54:45.780 W/System.err(11877): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:406)
+12-27 16:54:45.780 W/System.err(11877): 	... 25 more
+12-27 16:54:46.597 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45146ca8, keyCode=KEYCODE_DEL, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966577, downTime=34966577, deviceId=-1, source=0x101 }
+12-27 16:54:46.621 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45159118, keyCode=KEYCODE_1, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966598, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.635 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F....ID 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@451698a0, keyCode=KEYCODE_8, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966623, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.654 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.38 dur=1260.78 max=505.72 min=268.28
+12-27 16:54:46.658 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@4517e130, keyCode=KEYCODE_5, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966647, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.670 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F....ID 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@4518c728, keyCode=KEYCODE_1, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966657, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.695 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@451a10e0, keyCode=KEYCODE_1, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966680, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.719 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@451b5848, keyCode=KEYCODE_3, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966694, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.733 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F....ID 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@451c40d0, keyCode=KEYCODE_0, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966720, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.755 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@451d8a58, keyCode=KEYCODE_2, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966742, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.765 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F....ID 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@451e7070, keyCode=KEYCODE_7, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966753, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.787 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F...... 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@451fb8e8, keyCode=KEYCODE_4, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966773, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:46.798 I/View    (11877): Key down dispatch to android.widget.EditText{44911c70 VFED..CL .F....ID 0,0-957,121 #7f0d0125 app:id/login_user_name_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45209f28, keyCode=KEYCODE_1, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34966786, downTime=34966598, deviceId=-1, source=0x101 }
+12-27 16:54:47.816 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=6.02 dur=1162.19 max=501.55 min=30.35
+12-27 16:54:48.824 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1008.36 max=504.65 min=503.71
+12-27 16:54:50.002 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.55 dur=1177.53 max=503.29 min=172.03
+12-27 16:54:51.007 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.99 dur=1005.33 max=502.75 min=502.58
+12-27 16:54:51.283 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F...... 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45543be0, keyCode=KEYCODE_DEL, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34971266, downTime=34971266, deviceId=-1, source=0x101 }
+12-27 16:54:52.015 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1008.26 max=504.77 min=503.49
+12-27 16:54:53.515 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1499.97 max=505.77 min=488.73
+12-27 16:54:53.604 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F...... 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45077c10, keyCode=KEYCODE_DEL, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973589, downTime=34973589, deviceId=-1, source=0x101 }
+12-27 16:54:53.627 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F...... 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@4496fd30, keyCode=KEYCODE_Q, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973607, downTime=34973607, deviceId=-1, source=0x101 }
+12-27 16:54:53.648 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F....ID 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44989760, keyCode=KEYCODE_W, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973635, downTime=34973607, deviceId=-1, source=0x101 }
+12-27 16:54:53.680 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F...... 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@429b4c30, keyCode=KEYCODE_E, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973666, downTime=34973607, deviceId=-1, source=0x101 }
+12-27 16:54:53.690 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F....ID 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@42b75e68, keyCode=KEYCODE_A, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973678, downTime=34973607, deviceId=-1, source=0x101 }
+12-27 16:54:53.713 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F...... 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@429e9c80, keyCode=KEYCODE_S, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973689, downTime=34973607, deviceId=-1, source=0x101 }
+12-27 16:54:53.725 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F....ID 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45192b50, keyCode=KEYCODE_D, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973713, downTime=34973607, deviceId=-1, source=0x101 }
+12-27 16:54:53.752 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F...... 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@4297dec8, keyCode=KEYCODE_1, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973736, downTime=34973607, deviceId=-1, source=0x101 }
+12-27 16:54:53.763 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F....ID 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@429c5fd8, keyCode=KEYCODE_2, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973750, downTime=34973607, deviceId=-1, source=0x101 }
+12-27 16:54:53.793 I/View    (11877): Key down dispatch to android.widget.EditText{44914970 VFED..CL .F...... 0,124-957,246 #7f0d0126 app:id/login_user_pad_ed}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@450603c8, keyCode=KEYCODE_3, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=34973779, downTime=34973607, deviceId=-1, source=0x101 }
+12-27 16:54:54.828 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=5.33 dur=1313.28 max=513.32 min=26.88
+12-27 16:54:56.331 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.66 dur=1502.28 max=508.52 min=8.62
+12-27 16:54:57.342 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1011.35 max=506.27 min=505.07
+12-27 16:54:58.838 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.01 dur=1495.80 max=504.11 min=487.73
+12-27 16:54:59.847 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1008.71 max=504.63 min=504.08
+12-27 16:55:00.849 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1002.47 max=502.81 min=499.66
+12-27 16:55:01.862 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.97 dur=1013.34 max=507.79 min=505.55
+12-27 16:55:03.360 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1497.23 max=505.76 min=486.46
+12-27 16:55:04.861 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1500.90 max=506.88 min=488.44
+12-27 16:55:05.870 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1009.70 max=504.95 min=504.75
+12-27 16:55:07.375 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.99 dur=1504.97 max=509.13 min=489.18
+12-27 16:55:08.873 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1497.65 max=506.56 min=488.27
+12-27 16:55:10.371 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1497.62 max=504.96 min=488.93
+12-27 16:55:11.385 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.97 dur=1014.17 max=507.97 min=506.20
+12-27 16:55:12.392 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.99 dur=1007.43 max=504.20 min=503.24
+12-27 16:55:13.895 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1502.97 max=505.66 min=492.43
+12-27 16:55:15.413 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1517.81 max=521.63 min=489.50
+12-27 16:55:16.911 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1498.37 max=505.34 min=487.79
+12-27 16:55:18.416 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.99 dur=1504.28 max=507.97 min=488.84
+12-27 16:55:19.427 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1011.35 max=506.51 min=504.84
+12-27 16:55:20.436 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1009.50 max=506.02 min=503.48
+12-27 16:55:21.448 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1011.69 max=506.00 min=505.69
+12-27 16:55:22.950 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1501.94 max=507.07 min=489.00
+12-27 16:55:24.449 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1498.46 max=506.32 min=489.04
+12-27 16:55:25.462 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.97 dur=1013.14 max=507.66 min=505.48
+12-27 16:55:26.961 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1499.54 max=507.17 min=487.76
+12-27 16:55:27.966 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.99 dur=1004.78 max=506.61 min=498.17
+12-27 16:55:29.478 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1512.44 max=515.74 min=497.48
+12-27 16:55:30.974 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.01 dur=1495.91 max=500.62 min=496.97
+12-27 16:55:32.473 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1498.83 max=504.20 min=495.29
+12-27 16:55:33.484 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1011.15 max=506.89 min=504.27
+12-27 16:55:34.983 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1498.79 max=506.04 min=486.77
+12-27 16:55:35.994 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1011.04 max=506.77 min=504.27
+12-27 16:55:37.496 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1502.12 max=508.73 min=489.34
+12-27 16:55:38.996 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1500.16 max=509.21 min=488.94
+12-27 16:55:40.496 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1499.91 max=506.88 min=488.53
+12-27 16:55:41.508 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1011.57 max=506.18 min=505.39
+12-27 16:55:43.012 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.99 dur=1504.00 max=508.12 min=488.63
+12-27 16:55:44.512 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1500.04 max=507.32 min=488.48
+12-27 16:55:45.522 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1010.35 max=505.72 min=504.63
+12-27 16:55:46.534 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1011.76 max=506.66 min=505.10
+12-27 16:55:47.542 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1008.04 max=506.61 min=501.42
+12-27 16:55:48.553 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1010.91 max=506.10 min=504.81
+12-27 16:55:50.052 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1499.03 max=505.52 min=488.06
+12-27 16:55:51.064 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1012.05 max=506.23 min=505.83
+12-27 16:55:52.567 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1502.87 max=509.08 min=489.91
+12-27 16:55:53.575 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=1.98 dur=1008.03 max=513.88 min=494.15
+12-27 16:55:55.074 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d3f260,id:368,api:1,p:11877,c:244) queueBuffer: fps=2.00 dur=1499.46 max=509.93 min=492.56
+12-27 16:58:32.826 I/libPerfService(  814): set_rootgroup - tid: 11877
+12-27 16:58:32.854 I/ActivityManager(  814): START u0 {cmp=com.djr.zichanjia/.activity.SplashActivity} from pid 11877
+12-27 16:58:32.854 E/ActivityManager(  814): START {cmp=com.djr.zichanjia/.activity.SplashActivity u=0} from pid 11877
+12-27 16:58:32.871 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8db2408,id:372,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 16:58:32.872 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8db2408,id:372,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:32.906 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8db2408,id:372,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:32.963 I/dalvikvm(11877): Jit: resizing JitTable from 4096 to 8192
+12-27 16:58:32.982 W/ProxyFactroy(11900): instance_base
+12-27 16:58:32.982 W/ProxyFactroy(11900): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at java.lang.Class.classForName(Native Method)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:251)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:216)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at android.os.Looper.loop(Looper.java:193)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-27 16:58:32.982 W/ProxyFactroy(11900): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	... 10 more
+12-27 16:58:32.982 W/ProxyFactroy(11900): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-27 16:58:32.982 W/ProxyFactroy(11900): 	... 10 more
+12-27 16:58:33.050 I/System.out(11877): propertyValue:true
+12-27 16:58:33.050 I/System.out(11877): [socket][3] connection alog.umeng.com/110.173.196.36:80;LocalPort=53144(10000)
+12-27 16:58:33.050 I/System.out(11877): [CDS]connect[alog.umeng.com/110.173.196.36:80] tm:10
+12-27 16:58:33.553 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8db2408,id:372,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:33.562 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8db2408,id:372,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:34.070 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8db2408,id:372,api:1,p:11877,c:244) queueBuffer: fps=2.58 dur=1164.32 max=647.56 min=8.35
+12-27 16:58:35.105 I/BufferQueue(  244): [PopupWindow:4539d388](this:0xb8c4bba8,id:374,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 16:58:35.106 I/BufferQueue(  244): [PopupWindow:4539d388](this:0xb8c4bba8,id:374,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:35.127 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8db2408,id:372,api:1,p:11877,c:244) queueBuffer: fps=1.89 dur=1057.01 max=551.81 min=505.20
+12-27 16:58:35.132 I/BufferQueue(  244): [PopupWindow:4539d388](this:0xb8c4bba8,id:374,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:36.129 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8db2408,id:372,api:1,p:11877,c:244) queueBuffer: fps=2.99 dur=1002.16 max=487.60 min=52.18
+12-27 16:58:36.184 E/gsc     (11877): ---------is_remmber_login_name,click set true
+12-27 16:58:36.225 I/System.out(11877): {"passWord":"qweasd123","loginName":"18511302741"}
+12-27 16:58:36.227 E/gsc     (11877): istvBAckV5qDaj2G//yfUw2hPFqEAJ7V5WnA6txaQwUfysxAReZBCnmQm8gliatcTx6yvwvc/jHw=
+12-27 16:58:36.227 E/gsc     (11877): 登录请求url：   http://10.167.201.176:9090/zcj/front/login/userLogin?uUserName=18511302741&uPassword=qweasd123&origin=2
+12-27 16:58:36.229 I/System.out(11877): [CDS]rx timeout:1
+12-27 16:58:36.229 I/System.out(11877): [CDS]rx timeout:60000
+12-27 16:58:36.230 I/System.out(11877): [CDS]close[35203]
+12-27 16:58:36.230 I/System.out(11877): close [socket][/0.0.0.0:35203]
+12-27 16:58:36.230 I/System.out(11877): [CDS]rx timeout:60000
+12-27 16:58:36.230 I/System.out(11877): [socket][4] connection /10.167.201.176:9090;LocalPort=43472(60000)
+12-27 16:58:36.230 I/System.out(11877): [CDS]connect[/10.167.201.176:9090] tm:60
+12-27 16:58:36.234 I/System.out(11877): [socket][/10.167.170.43:43472] connected
+12-27 16:58:36.234 I/System.out(11877): [CDS]rx timeout:60000
+12-27 16:58:36.243 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d99c48,id:375,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 16:58:36.243 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d99c48,id:375,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:36.261 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d99c48,id:375,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:36.277 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d99c48,id:375,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:36.293 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d99c48,id:375,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:36.346 E/responseString(11877): {"status":"1","message":"成功","data":[{"realName":"李晶","beforeLoginTime":"2016-12-27 16:44:00","balance":0.0,"isEmailChecked":0,"nameChecked":1,"magicUser":0,"userName":"ZCJ274153004","token":"ZCJ_USER_LOGIN_APPde74fc593056301548da2e0dc7130dab_18511302741"}]}
+12-27 16:58:36.413 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8de0498,id:376,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 16:58:36.414 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8de0498,id:376,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:36.451 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8de0498,id:376,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:40.701 I/System.out(11877): [CDS]rx timeout:60000
+12-27 16:58:40.755 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d2bc90,id:377,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 16:58:40.756 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d2bc90,id:377,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:40.779 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8db2408,id:372,api:1,p:11877,c:244) queueBuffer: fps=0.65 dur=4650.26 max=4482.10 min=47.64
+12-27 16:58:40.787 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d2bc90,id:377,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:40.803 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d2bc90,id:377,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:40.815 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.LoginActivity](this:0xb8d2bc90,id:377,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:41.246 I/ActivityManager(  814): START u0 {cmp=com.djr.zichanjia/.activity.FuYouWebActivity (has extras)} from pid 11877
+12-27 16:58:41.246 E/ActivityManager(  814): START {cmp=com.djr.zichanjia/.activity.FuYouWebActivity (has extras) u=0} from pid 11877
+12-27 16:58:41.345 I/LibraryLoader(11877): Expected native library version number "",actual native library version number ""
+12-27 16:58:41.345 I/chromium(11877): [INFO:library_loader_hooks.cc(116)] Chromium logging enabled: level = 0, default verbosity = 0
+12-27 16:58:41.346 I/BrowserStartupController(11877): Initializing chromium process, renderers=0
+12-27 16:58:41.373 W/chromium(11877): [WARNING:proxy_config_service_android.cc(341)] PROXY>>> bypass->
+12-27 16:58:41.380 E/SQLiteLog(11877): (10) Failed to do file read, got: 0, amt: 100, last Errno: 2
+12-27 16:58:41.380 E/SQLiteLog(11877): 
+12-27 16:58:41.414 W/chromium(11877): [WARNING:proxy_service.cc(890)] PAC support disabled because there is no system implementation
+12-27 16:58:41.443 W/chromium(11877): [WARNING:password_handler.cc(26)] create-->contents = 0x7b4d2610, delegate = 0x7b502920
+12-27 16:58:41.443 W/chromium(11877): [WARNING:password_handler.cc(34)] attaching to web_contents 
+12-27 16:58:41.497 I/System.out(11877): [CDS]rx timeout:1
+12-27 16:58:41.499 I/System.out(11877): [CDS]EAGAIN in Recvfrom
+12-27 16:58:41.499 I/System.out(11877): [CDS]read byte is 0
+12-27 16:58:41.500 I/System.out(11877): [CDS]rx timeout:60000
+12-27 16:58:41.500 I/System.out(11877): [CDS]rx timeout:60000
+12-27 16:58:41.554 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.FuYouWebActivity](this:0xb8d9dbc0,id:378,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 16:58:41.555 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.FuYouWebActivity](this:0xb8d9dbc0,id:378,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:41.558 I/chromium(11877): [INFO:layer_tree_settings.cc(71)] [LayerTreeSettings] num_raster_threads is 1
+12-27 16:58:41.558 I/chromium(11877): [INFO:render_widget_compositor.cc(273)] [RenderWidgetCompositor::Create] [384,384] [512,512] gpuRaster=[0] [1] [128] [100] [1]
+12-27 16:58:41.566 W/AwContents(11877): getEffectiveBackgroundColor
+12-27 16:58:41.568 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.FuYouWebActivity](this:0xb8d9dbc0,id:378,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:41.569 W/ProxyFactroy(11900): instance_base
+12-27 16:58:41.569 W/ProxyFactroy(11900): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at java.lang.Class.classForName(Native Method)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:251)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:216)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at android.os.Looper.loop(Looper.java:193)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-27 16:58:41.569 W/ProxyFactroy(11900): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	... 10 more
+12-27 16:58:41.569 W/ProxyFactroy(11900): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-27 16:58:41.569 W/ProxyFactroy(11900): 	... 10 more
+12-27 16:58:41.584 I/        (11877): [custom_prop]custom_get_string->module[browser],key[UAProfileURL]
+12-27 16:58:41.584 I/        (11877): [custom_prop]reset_parser->keep[0]
+12-27 16:58:41.584 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.584 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.584 I/        (11877): [custom_prop]prop name:ro.product.name
+12-27 16:58:41.584 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.584 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.584 I/        (11877): [custom_prop]prop name:ro.build.version.release
+12-27 16:58:41.584 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:apc.release.date
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.build.version.release
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.product.name
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.build.version.release
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:apc.release.date
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.build.version.release
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.product.name
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.product.model
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.product.model
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.product.model
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.product.model
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_PROP
+12-27 16:58:41.585 I/        (11877): [custom_prop]prop name:ro.mediatek.version.release
+12-27 16:58:41.585 I/        (11877): [custom_prop]enter STATE_VALUE
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[1]
+12-27 16:58:41.585 I/        (11877): [custom_prop]reset_parser->keep[0]
+12-27 16:58:41.586 W/AwContents(11877): getEffectiveBackgroundColor
+12-27 16:58:41.588 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.FuYouWebActivity](this:0xb8d9dbc0,id:378,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:41.591 I/chromium(11877): [INFO:image_raster_worker_pool.cc(111)] [ImageRasterWorkerPool] [11877] enable_image_on_raster=[1]
+12-27 16:58:41.636 W/chromium(11877): [WARNING:simple_index_file.cc(338)] Could not map Simple Index file.
+12-27 16:58:41.636 I/chromium(11877): [INFO:simple_index_file.cc(437)] Simple Cache Index is being restored from disk.
+12-27 16:58:41.911 E/BASEACTIVITY(11877): ++++++++++++++++++++++++++++++++++
+12-27 16:58:41.937 W/WebViewChromium(11877): [requestDrawGL] mGLfunctor=null
+12-27 16:58:41.943 I/chromium(11877): [INFO:in_process_command_buffer.cc(408)] [InProcessCommandBuffer::InitializeOnGpuThread] [0x7ac5adc8][11877] new GpuControlService [1]
+12-27 16:58:41.945 I/chromium(11877): [INFO:in_process_command_buffer.cc(408)] [InProcessCommandBuffer::InitializeOnGpuThread] [0x7b3c0148][11877] new GpuControlService [1]
+12-27 16:58:41.981 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0ebe04
+12-27 16:58:41.981 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 320 vertical_stride: 512 size: 655360
+12-27 16:58:41.981 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0ebe04
+12-27 16:58:41.981 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[1] buffer=[0x7bcb0000] stride=[1280]
+12-27 16:58:41.982 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.983 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0ec0dc
+12-27 16:58:41.983 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.983 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0ec0dc
+12-27 16:58:41.983 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.FuYouWebActivity](this:0xb8d9dbc0,id:378,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:41.983 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[2] buffer=[0x7bd50000] stride=[1536]
+12-27 16:58:41.983 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.983 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0ec26c
+12-27 16:58:41.983 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.983 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0ec26c
+12-27 16:58:41.984 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[3] buffer=[0x7bde0000] stride=[1536]
+12-27 16:58:41.984 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.984 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0ec04c
+12-27 16:58:41.984 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.984 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0ec04c
+12-27 16:58:41.984 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[4] buffer=[0x7be70000] stride=[1536]
+12-27 16:58:41.985 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.985 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7ac7df3c
+12-27 16:58:41.985 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.985 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7ac7df3c
+12-27 16:58:41.985 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[5] buffer=[0x7c6f8000] stride=[1536]
+12-27 16:58:41.986 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.986 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0ebf9c
+12-27 16:58:41.986 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.986 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0ebf9c
+12-27 16:58:41.986 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[6] buffer=[0x7df5c000] stride=[1536]
+12-27 16:58:41.986 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[1]
+12-27 16:58:41.986 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.987 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[2]
+12-27 16:58:41.987 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a1cd72c
+12-27 16:58:41.987 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.987 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a1cd72c
+12-27 16:58:41.987 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[3]
+12-27 16:58:41.987 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[7] buffer=[0x7dfec000] stride=[1536]
+12-27 16:58:41.987 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[4]
+12-27 16:58:41.987 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.987 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[5]
+12-27 16:58:41.988 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7ad3d7ec
+12-27 16:58:41.988 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[6]
+12-27 16:58:41.988 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.988 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7ad3d7ec
+12-27 16:58:41.988 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[7]
+12-27 16:58:41.988 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[8] buffer=[0x7e07c000] stride=[1536]
+12-27 16:58:41.988 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.988 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[8]
+12-27 16:58:41.988 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0f729c
+12-27 16:58:41.988 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.988 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0f729c
+12-27 16:58:41.989 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[9] buffer=[0x7e10c000] stride=[1536]
+12-27 16:58:41.989 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.989 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[9]
+12-27 16:58:41.989 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0fca5c
+12-27 16:58:41.989 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.989 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0fca5c
+12-27 16:58:41.990 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[10] buffer=[0x7e19c000] stride=[1536]
+12-27 16:58:41.990 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.990 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0fd0ac
+12-27 16:58:41.990 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.990 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0fd0ac
+12-27 16:58:41.991 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[11] buffer=[0x7e22c000] stride=[1536]
+12-27 16:58:41.991 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.991 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0fe5dc
+12-27 16:58:41.991 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.991 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0fe5dc
+12-27 16:58:41.991 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[10]
+12-27 16:58:41.992 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[12] buffer=[0x7e2bc000] stride=[1536]
+12-27 16:58:41.992 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[11]
+12-27 16:58:41.992 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.992 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[12]
+12-27 16:58:41.992 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a0ff9e4
+12-27 16:58:41.992 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.992 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a0ff9e4
+12-27 16:58:41.993 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[13] buffer=[0x7e34c000] stride=[1536]
+12-27 16:58:41.993 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.993 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[13]
+12-27 16:58:41.993 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a10ddc4
+12-27 16:58:41.993 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.993 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a10ddc4
+12-27 16:58:41.993 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[14] buffer=[0x7e3dc000] stride=[1536]
+12-27 16:58:41.994 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.994 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[14]
+12-27 16:58:41.994 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7aceade4
+12-27 16:58:41.994 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.994 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7aceade4
+12-27 16:58:41.995 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[15]
+12-27 16:58:41.995 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[15] buffer=[0x7e46c000] stride=[1536]
+12-27 16:58:41.995 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.996 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a135794
+12-27 16:58:41.996 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:41.996 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a135794
+12-27 16:58:41.996 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[16] buffer=[0x7e4fc000] stride=[1536]
+12-27 16:58:41.996 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:41.999 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[16]
+12-27 16:58:42.277 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: video/3gpp
+12-27 16:58:42.277 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/3gpp
+12-27 16:58:42.277 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: video/3gpp2
+12-27 16:58:42.277 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: video/avi
+12-27 16:58:42.277 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: video/mpeg
+12-27 16:58:42.277 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/mpeg
+12-27 16:58:42.277 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: video/x-m4v
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/aac
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/aac-adts
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/x-mpeg
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/flac
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/amr
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/amr-wb
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/quicktime
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/vorbis
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: video/quicktime
+12-27 16:58:42.278 I/chromium(11877): [INFO:mime_util.cc(529)] insert media type: audio/quicktime
+12-27 16:58:42.755 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.FuYouWebActivity](this:0xb8d9dbc0,id:378,api:1,p:11877,c:244) queueBuffer: fps=3.37 dur=1187.56 max=757.42 min=15.21
+12-27 16:58:43.060 I/System.out(11877): [socket][5:53144] exception
+12-27 16:58:43.060 I/System.out(11877): [CDS]close[53144]
+12-27 16:58:43.061 I/System.out(11877): close [socket][/0.0.0.0:53144]
+12-27 16:58:43.067 I/System.out(11877): propertyValue:true
+12-27 16:58:43.068 I/System.out(11877): [socket][5] connection alog.umengcloud.com/140.205.156.81:80;LocalPort=45926(10000)
+12-27 16:58:43.068 I/System.out(11877): [CDS]connect[alog.umengcloud.com/140.205.156.81:80] tm:10
+12-27 16:58:43.454 I/System.out(11877): [socket][/10.167.170.43:45926] connected
+12-27 16:58:43.454 I/System.out(11877): [CDS]rx timeout:30000
+12-27 16:58:43.472 I/System.out(11877): [CDS]SO_SND_TIMEOUT:0
+12-27 16:58:44.584 I/System.out(11877): [CDS]close[45926]
+12-27 16:58:44.584 I/System.out(11877): close [socket][/0.0.0.0:45926]
+12-27 16:58:44.612 I/System.out(11877): [CDS][DNS]Unable to resolve host "www.localnetwork.uop": No address associated with hostname
+12-27 16:58:44.613 W/System.err(11877): java.net.UnknownHostException: Unable to resolve host "www.localnetwork.uop": No address associated with hostname
+12-27 16:58:44.613 W/System.err(11877): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:440)
+12-27 16:58:44.613 W/System.err(11877): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+12-27 16:58:44.613 W/System.err(11877): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+12-27 16:58:44.613 W/System.err(11877): 	at com.android.okhttp.internal.Dns$1.getAllByName(Dns.java:28)
+12-27 16:58:44.613 W/System.err(11877): 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:216)
+12-27 16:58:44.613 W/System.err(11877): 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:122)
+12-27 16:58:44.613 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:292)
+12-27 16:58:44.613 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+12-27 16:58:44.613 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+12-27 16:58:44.613 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:355)
+12-27 16:58:44.614 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:306)
+12-27 16:58:44.614 W/System.err(11877): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:513)
+12-27 16:58:44.614 W/System.err(11877): 	at u.aly.am.a(NetworkHelper.java:279)
+12-27 16:58:44.614 W/System.err(11877): 	at u.aly.r.a(Sender.java:97)
+12-27 16:58:44.614 W/System.err(11877): 	at u.aly.ae.f(CacheImpl.java:292)
+12-27 16:58:44.614 W/System.err(11877): 	at u.aly.ae.a(CacheImpl.java:148)
+12-27 16:58:44.614 W/System.err(11877): 	at u.aly.ae.a(CacheImpl.java:108)
+12-27 16:58:44.614 W/System.err(11877): 	at u.aly.c$1.a(CacheService.java:45)
+12-27 16:58:44.614 W/System.err(11877): 	at com.umeng.analytics.g.run(SafeRunnable.java:8)
+12-27 16:58:44.614 W/System.err(11877): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+12-27 16:58:44.614 W/System.err(11877): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-27 16:58:44.614 W/System.err(11877): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:152)
+12-27 16:58:44.615 W/System.err(11877): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:265)
+12-27 16:58:44.615 W/System.err(11877): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+12-27 16:58:44.615 W/System.err(11877): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+12-27 16:58:44.615 W/System.err(11877): 	at java.lang.Thread.run(Thread.java:848)
+12-27 16:58:44.615 W/System.err(11877): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+12-27 16:58:44.616 W/System.err(11877): 	at libcore.io.Posix.getaddrinfo(Native Method)
+12-27 16:58:44.616 W/System.err(11877): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+12-27 16:58:44.616 W/System.err(11877): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:406)
+12-27 16:58:44.616 W/System.err(11877): 	... 25 more
+12-27 16:58:44.618 W/chromium(11877): [WARNING:password_handler.cc(170)] OnPasswordFormsParsed called
+12-27 16:58:44.618 W/chromium(11877): [WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+12-27 16:58:44.618 W/chromium(11877): [WARNING:password_handler.cc(172)] OnPasswordFormsParsed IsEnabledSavePassword is false
+12-27 16:58:44.622 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7c8d0b04
+12-27 16:58:44.622 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 512 vertical_stride: 128 size: 262144
+12-27 16:58:44.622 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7c8d0b04
+12-27 16:58:44.622 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[17] buffer=[0x7e5fd000] stride=[2048]
+12-27 16:58:44.622 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[17]
+12-27 16:58:44.645 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.645 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[2] buffer=[0x7bd50000] stride=[1536]
+12-27 16:58:44.647 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.647 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[3] buffer=[0x7bde0000] stride=[1536]
+12-27 16:58:44.648 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.649 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e901454
+12-27 16:58:44.649 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 512 vertical_stride: 128 size: 262144
+12-27 16:58:44.649 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e901454
+12-27 16:58:44.649 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[18] buffer=[0x7f5c5000] stride=[2048]
+12-27 16:58:44.649 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[18]
+12-27 16:58:44.650 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.650 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[4] buffer=[0x7be70000] stride=[1536]
+12-27 16:58:44.650 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.651 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e5fcf8c
+12-27 16:58:44.651 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 512 vertical_stride: 128 size: 262144
+12-27 16:58:44.651 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e5fcf8c
+12-27 16:58:44.651 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[19] buffer=[0x7f605000] stride=[2048]
+12-27 16:58:44.651 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[19]
+12-27 16:58:44.651 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.652 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[5] buffer=[0x7c6f8000] stride=[1536]
+12-27 16:58:44.655 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.656 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[6] buffer=[0x7df5c000] stride=[1536]
+12-27 16:58:44.657 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.657 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[7] buffer=[0x7dfec000] stride=[1536]
+12-27 16:58:44.658 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.658 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[8] buffer=[0x7e07c000] stride=[1536]
+12-27 16:58:44.660 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.660 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[9] buffer=[0x7e10c000] stride=[1536]
+12-27 16:58:44.661 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.661 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[10] buffer=[0x7e19c000] stride=[1536]
+12-27 16:58:44.662 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.662 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[11] buffer=[0x7e22c000] stride=[1536]
+12-27 16:58:44.665 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.665 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[12] buffer=[0x7e2bc000] stride=[1536]
+12-27 16:58:44.666 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.666 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[13] buffer=[0x7e34c000] stride=[1536]
+12-27 16:58:44.667 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.667 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[14] buffer=[0x7e3dc000] stride=[1536]
+12-27 16:58:44.670 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.670 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[15] buffer=[0x7e46c000] stride=[1536]
+12-27 16:58:44.671 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.672 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[16] buffer=[0x7e4fc000] stride=[1536]
+12-27 16:58:44.672 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.673 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e65ef24
+12-27 16:58:44.673 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:44.673 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e65ef24
+12-27 16:58:44.673 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[20] buffer=[0x8063c000] stride=[1536]
+12-27 16:58:44.673 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[20]
+12-27 16:58:44.674 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.674 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e670f7c
+12-27 16:58:44.674 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:44.674 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e670f7c
+12-27 16:58:44.674 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[21] buffer=[0x80819000] stride=[1536]
+12-27 16:58:44.675 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[21]
+12-27 16:58:44.676 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.676 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e901c6c
+12-27 16:58:44.676 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:44.676 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e901c6c
+12-27 16:58:44.676 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[22] buffer=[0x82a0c000] stride=[1536]
+12-27 16:58:44.676 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[22]
+12-27 16:58:44.677 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.699 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[1] buffer=[0x7bcb0000] stride=[1280]
+12-27 16:58:44.700 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.FuYouWebActivity](this:0xb8d9dbc0,id:378,api:1,p:11877,c:244) queueBuffer: fps=8.74 dur=1945.21 max=1675.65 min=13.69
+12-27 16:58:44.705 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.705 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7acdef1c
+12-27 16:58:44.705 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 320 vertical_stride: 64 size: 81920
+12-27 16:58:44.705 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7acdef1c
+12-27 16:58:44.706 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[23] buffer=[0x7f64e000] stride=[1280]
+12-27 16:58:44.706 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[23]
+12-27 16:58:44.706 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:44.707 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7acdeb4c
+12-27 16:58:44.707 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 320 vertical_stride: 512 size: 655360
+12-27 16:58:44.707 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7acdeb4c
+12-27 16:58:44.707 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[24] buffer=[0x82a9c000] stride=[1280]
+12-27 16:58:44.707 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[24]
+12-27 16:58:44.708 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:45.354 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x79ab2b9c
+12-27 16:58:45.354 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:45.354 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x79ab2b9c
+12-27 16:58:45.356 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[25]
+12-27 16:58:45.357 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[25] buffer=[0x82b3c000] stride=[1536]
+12-27 16:58:45.364 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:45.365 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7a10f364
+12-27 16:58:45.365 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:45.365 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7a10f364
+12-27 16:58:45.365 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[26]
+12-27 16:58:45.365 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[26] buffer=[0x82d00000] stride=[1536]
+12-27 16:58:45.366 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:45.366 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7ac9acb4
+12-27 16:58:45.366 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:45.366 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7ac9acb4
+12-27 16:58:45.367 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[27]
+12-27 16:58:45.368 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[27] buffer=[0x82d90000] stride=[1536]
+12-27 16:58:45.368 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:45.384 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[1] buffer=[0x7bcb0000] stride=[1280]
+12-27 16:58:45.385 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:45.677 I/View    (11877): Key down dispatch to android.webkit.WebView{44f4dce0 VFEDHVC. .F...... 0,0-1080,1845 #7f0d0119 app:id/webView}, event = KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44f8b620, keyCode=KEYCODE_BACK, scanCode=158, metaState=0, flags=0x8, repeatCount=0, eventTime=35205654, downTime=35205654, deviceId=5, source=0x101 }
+12-27 16:58:45.682 W/UnimplementedWebViewApi(11877): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+12-27 16:58:45.836 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8db2408,id:379,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 16:58:45.837 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8db2408,id:379,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:45.875 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8db2408,id:379,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:46.031 W/chromium(11877): [WARNING:password_handler.cc(170)] OnPasswordFormsParsed called
+12-27 16:58:46.031 W/chromium(11877): [WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+12-27 16:58:46.031 W/chromium(11877): [WARNING:password_handler.cc(172)] OnPasswordFormsParsed IsEnabledSavePassword is false
+12-27 16:58:46.033 W/chromium(11877): [WARNING:password_handler.cc(211)] OnPasswordFormsRendered called
+12-27 16:58:46.034 W/chromium(11877): [WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+12-27 16:58:46.034 W/chromium(11877): [WARNING:password_handler.cc(213)] OnPasswordFormsRendered IsEnabledSavePassword is false
+12-27 16:58:46.037 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[7] buffer=[0x7dfec000] stride=[1536]
+12-27 16:58:46.038 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.039 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[10] buffer=[0x7e19c000] stride=[1536]
+12-27 16:58:46.040 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.040 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[13] buffer=[0x7e34c000] stride=[1536]
+12-27 16:58:46.041 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.041 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7b5f8d14
+12-27 16:58:46.041 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.041 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7b5f8d14
+12-27 16:58:46.042 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[28] buffer=[0x7bbb2000] stride=[1536]
+12-27 16:58:46.043 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.043 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7f3aeb9c
+12-27 16:58:46.043 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.043 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7f3aeb9c
+12-27 16:58:46.043 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[29] buffer=[0x7bf12000] stride=[1536]
+12-27 16:58:46.044 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.044 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e743054
+12-27 16:58:46.044 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.044 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e743054
+12-27 16:58:46.044 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[30] buffer=[0x7bfa2000] stride=[1536]
+12-27 16:58:46.045 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.045 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e743554
+12-27 16:58:46.045 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.045 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e743554
+12-27 16:58:46.045 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[31] buffer=[0x7c032000] stride=[1536]
+12-27 16:58:46.046 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.046 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e74397c
+12-27 16:58:46.046 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.046 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e74397c
+12-27 16:58:46.047 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[32] buffer=[0x7c0c2000] stride=[1536]
+12-27 16:58:46.047 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.047 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e743bfc
+12-27 16:58:46.047 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.047 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e743bfc
+12-27 16:58:46.047 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[33] buffer=[0x7c152000] stride=[1536]
+12-27 16:58:46.048 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.049 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7b3d9c5c
+12-27 16:58:46.049 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.049 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7b3d9c5c
+12-27 16:58:46.049 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[34] buffer=[0x7c1e2000] stride=[1536]
+12-27 16:58:46.050 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.050 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e743ac4
+12-27 16:58:46.050 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.050 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e743ac4
+12-27 16:58:46.050 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[35] buffer=[0x7c272000] stride=[1536]
+12-27 16:58:46.051 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.051 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7acbb114
+12-27 16:58:46.051 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.051 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7acbb114
+12-27 16:58:46.051 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[36] buffer=[0x7c302000] stride=[1536]
+12-27 16:58:46.052 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.053 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7eaa7e2c
+12-27 16:58:46.053 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.053 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7eaa7e2c
+12-27 16:58:46.053 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[37] buffer=[0x7c392000] stride=[1536]
+12-27 16:58:46.055 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.055 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7f384fd4
+12-27 16:58:46.055 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.055 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7f384fd4
+12-27 16:58:46.055 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[38] buffer=[0x7c422000] stride=[1536]
+12-27 16:58:46.057 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.057 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e74360c
+12-27 16:58:46.057 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.057 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e74360c
+12-27 16:58:46.057 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[39] buffer=[0x7c4b2000] stride=[1536]
+12-27 16:58:46.058 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.058 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7b49ce34
+12-27 16:58:46.058 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.058 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7b49ce34
+12-27 16:58:46.059 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[40] buffer=[0x7c542000] stride=[1536]
+12-27 16:58:46.059 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.060 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7e7431a4
+12-27 16:58:46.060 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.060 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7e7431a4
+12-27 16:58:46.060 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[41] buffer=[0x7c5d2000] stride=[1536]
+12-27 16:58:46.060 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.061 I/[MALI][Gralloc](11877): [MTK]GRALLOC enter alloc_device_alloc()! pHandle=0x0x7f3aef64
+12-27 16:58:46.061 I/[MALI][Gralloc](11877): usage: 0x133, format: 0x1 stride: 384 vertical_stride: 384 size: 589824
+12-27 16:58:46.061 I/[MALI][Gralloc](11877): [MTK]GRALLOC ready to go ion alloc arrrrrrrrr!!!! pHandle=0x0x7f3aef64
+12-27 16:58:46.061 I/chromium(11877): [INFO:resource_provider.cc(1770)] [StartRaster] allocated=[1] image_id=[42] buffer=[0x7c662000] stride=[1536]
+12-27 16:58:46.061 I/chromium(11877): [INFO:image_raster_worker_pool.cc(75)] [RunOnWorkerThread] --------------
+12-27 16:58:46.223 E/BASEACTIVITY(11877): ++++++++++++++++++++++++++++++++++
+12-27 16:58:46.226 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[28]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[29]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[30]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[31]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[32]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[33]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[34]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[35]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[36]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[37]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[38]
+12-27 16:58:46.227 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[39]
+12-27 16:58:46.228 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[40]
+12-27 16:58:46.228 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[41]
+12-27 16:58:46.228 I/chromium(11877): [INFO:gpu_control_service.cc(81)] [GpuControlService::RegisterGpuBuffer] [11877] id=[42]
+12-27 16:58:46.238 I/chromium(11877): [INFO:image_raster_worker_pool.cc(111)] [ImageRasterWorkerPool] [11877] enable_image_on_raster=[1]
+12-27 16:58:46.258 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8db2408,id:379,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:47.039 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8db2408,id:379,api:1,p:11877,c:244) queueBuffer: fps=1.72 dur=1166.08 max=781.56 min=384.52
+12-27 16:58:47.039 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8db2408,id:379,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 16:58:49.150 E/BASEACTIVITY(11877): ++++++++++++++++++++++++++++++++++
+12-27 16:58:49.160 E/BASEACTIVITY(11877): false
+12-27 17:03:41.829 I/System.out(11877): [CDS]close[43472]
+12-27 17:03:41.830 I/System.out(11877): close [socket][/0.0.0.0:43472]
+12-27 17:06:29.078 I/libPerfService(  814): set_rootgroup - tid: 11877
+12-27 17:06:29.107 I/ActivityManager(  814): START u0 {cmp=com.djr.zichanjia/.activity.SplashActivity} from pid 11877
+12-27 17:06:29.108 E/ActivityManager(  814): START {cmp=com.djr.zichanjia/.activity.SplashActivity u=0} from pid 11877
+12-27 17:06:29.134 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8d3f260,id:382,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 17:06:29.135 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8d3f260,id:382,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 17:06:29.193 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8d3f260,id:382,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 17:06:29.282 W/ProxyFactroy(11900): instance_base
+12-27 17:06:29.282 W/ProxyFactroy(11900): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at java.lang.Class.classForName(Native Method)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:251)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:216)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at android.os.Looper.loop(Looper.java:193)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-27 17:06:29.282 W/ProxyFactroy(11900): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	... 10 more
+12-27 17:06:29.282 W/ProxyFactroy(11900): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-27 17:06:29.282 W/ProxyFactroy(11900): 	... 10 more
+12-27 17:06:29.294 I/System.out(11877): propertyValue:true
+12-27 17:06:29.294 I/System.out(11877): [socket][6] connection alog.umeng.com/110.173.196.36:80;LocalPort=40079(10000)
+12-27 17:06:29.294 I/System.out(11877): [CDS]connect[alog.umeng.com/110.173.196.36:80] tm:10
+12-27 17:06:29.823 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8d3f260,id:382,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 17:06:30.343 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8d3f260,id:382,api:1,p:11877,c:244) queueBuffer: fps=1.74 dur=1151.97 max=631.51 min=520.46
+12-27 17:06:30.344 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8d3f260,id:382,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 17:06:30.465 E/gsc     (11877): 资产总揽网络请求:   http://10.167.201.176:9090/zcj/front/usercenter/userAsset/ZCJ_USER_LOGIN_APPde74fc593056301548da2e0dc7130dab_18511302741
+12-27 17:06:30.470 I/System.out(11877): [CDS]rx timeout:60000
+12-27 17:06:30.470 I/System.out(11877): [socket][7] connection /10.167.201.176:9090;LocalPort=53464(60000)
+12-27 17:06:30.470 I/System.out(11877): [CDS]connect[/10.167.201.176:9090] tm:60
+12-27 17:06:30.479 I/System.out(11877): [socket][/10.167.170.43:53464] connected
+12-27 17:06:30.479 I/System.out(11877): [CDS]rx timeout:60000
+12-27 17:06:30.544 E/gsc     (11877): 资产总揽网络请求:   http://10.167.201.176:9090/zcj/front/usercenter/userAsset/ZCJ_USER_LOGIN_APPde74fc593056301548da2e0dc7130dab_18511302741
+12-27 17:06:30.546 I/System.out(11877): [CDS]rx timeout:1
+12-27 17:06:30.549 I/System.out(11877): [CDS]EAGAIN in Recvfrom
+12-27 17:06:30.549 I/System.out(11877): [CDS]read byte is 0
+12-27 17:06:30.549 I/System.out(11877): [CDS]rx timeout:60000
+12-27 17:06:30.549 I/System.out(11877): [CDS]rx timeout:60000
+12-27 17:06:30.624 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8c4bba8,id:383,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 17:06:30.624 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8c4bba8,id:383,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 17:06:30.635 E/gsc     (11877): 资产总揽网络请求完成:   {"status":"1","message":"成功","data":{"projectlist":[{"xx":1,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":72,"m_project_no_fouiou":"0021822000000020516","p_project_status":"6","m_rated_money":0.00,"m_id_no":"411422198910014510","p_project_money":62040.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_stop_days":3,"m_create_time":"2016-12-27 14:59:01","m_is_flow":"0","m_status":"1","m_product_type":"10","p_buy_type":"1","m_id":109,"p_plan_type":"0","m_start_time":"2016-12-27 15:05:17","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-27 15:04:40","m_project_status":"6","m_money":62040.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612271459019617611","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03110102089","qqq":0E-24,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":114,"m_is_earlyback":"0","m_debt_equity":62040.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-27 15:05:17","p_increace_money":100.00,"m_name":"信用贷201612271459019617611","m_number":"03110102089","p_rated_money":0.00,"m_supple_money":0.00,"m_parent_id":109,"p_rating_money":62040.00,"p_id":72,"m_is_overdue":"0"},{"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":63,"m_full_time":"2016-12-22 11:04:10","m_project_no_fouiou":"0021822000000020469","p_project_status":"7","m_rated_money":73320.00,"m_id_no":"441882199301206013","p_project_money":73320.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-22 11:04:10","p_stop_days":3,"m_create_time":"2016-12-22 10:36:04","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":98,"p_plan_type":"0","m_start_time":"2016-12-22 10:38:34","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-22 10:38:10","m_project_status":"8","m_money":73320.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612221036048236583","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03110102136","qqq":0.99998636134258943550,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":104,"m_is_earlyback":"0","m_debt_equity":73320.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-22 10:38:34","p_increace_money":100.00,"m_name":"信用贷201612221036048236583","m_number":"03110102136","p_rated_money":73320.00,"m_supple_money":0.00,"m_parent_id":98,"p_rating_money":0.00,"p_id":63,"m_is_overdue":"0"},{"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":65,"m_full_time":"2016-12-22 11:29:58","m_project_no_fouiou":"0021822000000020473","p_project_status":"7","m_rated_money":62040.00,"m_id_no":"350521197508100899","p_project_money":62040.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-22 11:29:58","p_stop_days":3,"m_create_time":"2016-12-22 11:16:13","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":103,"p_plan_type":"0","m_start_time":"2016-12-22 11:22:20","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-22 11:20:28","m_project_status":"8","m_money":62040.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612221116130647068","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03120102106","qqq":0.99998388162666623684,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":110,"m_is_earlyback":"0","m_debt_equity":62040.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-22 11:22:20","p_increace_money":100.00,"m_name":"信用贷201612221116130647068","m_number":"03120102106","p_rated_money":62040.00,"m_supple_money":0.00,"m_parent_id":103,"p_rating_money":0.00,"p_id":65,"m_is_overdue":"0"}],"user":{"u_user_security_level":4,"u_is_phone_checked":1,"u_user_status":0,"a_total":0.00,"a_interest_a":0.00,"a_interest_total_w":0.00,"u_is
+12-27 17:06:30.664 E/gsc     (11877): 资产总揽网络请求完成:   {"status":"1","message":"成功","data":{"projectlist":[{"xx":1,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":72,"m_project_no_fouiou":"0021822000000020516","p_project_status":"6","m_rated_money":0.00,"m_id_no":"411422198910014510","p_project_money":62040.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_stop_days":3,"m_create_time":"2016-12-27 14:59:01","m_is_flow":"0","m_status":"1","m_product_type":"10","p_buy_type":"1","m_id":109,"p_plan_type":"0","m_start_time":"2016-12-27 15:05:17","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-27 15:04:40","m_project_status":"6","m_money":62040.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612271459019617611","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03110102089","qqq":0E-24,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":114,"m_is_earlyback":"0","m_debt_equity":62040.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-27 15:05:17","p_increace_money":100.00,"m_name":"信用贷201612271459019617611","m_number":"03110102089","p_rated_money":0.00,"m_supple_money":0.00,"m_parent_id":109,"p_rating_money":62040.00,"p_id":72,"m_is_overdue":"0"},{"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":63,"m_full_time":"2016-12-22 11:04:10","m_project_no_fouiou":"0021822000000020469","p_project_status":"7","m_rated_money":73320.00,"m_id_no":"441882199301206013","p_project_money":73320.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-22 11:04:10","p_stop_days":3,"m_create_time":"2016-12-22 10:36:04","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":98,"p_plan_type":"0","m_start_time":"2016-12-22 10:38:34","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-22 10:38:10","m_project_status":"8","m_money":73320.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612221036048236583","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03110102136","qqq":0.99998636134258943550,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":104,"m_is_earlyback":"0","m_debt_equity":73320.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-22 10:38:34","p_increace_money":100.00,"m_name":"信用贷201612221036048236583","m_number":"03110102136","p_rated_money":73320.00,"m_supple_money":0.00,"m_parent_id":98,"p_rating_money":0.00,"p_id":63,"m_is_overdue":"0"},{"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":65,"m_full_time":"2016-12-22 11:29:58","m_project_no_fouiou":"0021822000000020473","p_project_status":"7","m_rated_money":62040.00,"m_id_no":"350521197508100899","p_project_money":62040.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-22 11:29:58","p_stop_days":3,"m_create_time":"2016-12-22 11:16:13","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":103,"p_plan_type":"0","m_start_time":"2016-12-22 11:22:20","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-22 11:20:28","m_project_status":"8","m_money":62040.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612221116130647068","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03120102106","qqq":0.99998388162666623684,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":110,"m_is_earlyback":"0","m_debt_equity":62040.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-22 11:22:20","p_increace_money":100.00,"m_name":"信用贷201612221116130647068","m_number":"03120102106","p_rated_money":62040.00,"m_supple_money":0.00,"m_parent_id":103,"p_rating_money":0.00,"p_id":65,"m_is_overdue":"0"}],"user":{"u_user_security_level":4,"u_is_phone_checked":1,"u_user_status":0,"a_total":0.00,"a_interest_a":0.00,"a_interest_total_w":0.00,"u_is
+12-27 17:06:31.351 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.MainActivity](this:0xb8d3f260,id:382,api:1,p:11877,c:244) queueBuffer: fps=47.65 dur=1007.31 max=146.52 min=10.91
+12-27 17:06:33.315 I/ActivityManager(  814): START u0 {cmp=com.djr.zichanjia/.activity.SettingActivity} from pid 11877
+12-27 17:06:33.315 E/ActivityManager(  814): START {cmp=com.djr.zichanjia/.activity.SettingActivity u=0} from pid 11877
+12-27 17:06:33.456 E/gsc     (11877): 账户管理请求http://10.167.201.176:9090/zcj/front/usercenter/userInfo/ZCJ_USER_LOGIN_APPde74fc593056301548da2e0dc7130dab_18511302741
+12-27 17:06:33.457 I/System.out(11877): [CDS]rx timeout:1
+12-27 17:06:33.459 I/System.out(11877): [CDS]EAGAIN in Recvfrom
+12-27 17:06:33.459 I/System.out(11877): [CDS]read byte is 0
+12-27 17:06:33.459 I/System.out(11877): [CDS]rx timeout:60000
+12-27 17:06:33.459 I/System.out(11877): [CDS]rx timeout:60000
+12-27 17:06:33.499 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.SettingActivity](this:0xb8c4bba8,id:384,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 17:06:33.500 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.SettingActivity](this:0xb8c4bba8,id:384,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 17:06:33.522 W/ProxyFactroy(11900): instance_base
+12-27 17:06:33.522 W/ProxyFactroy(11900): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at java.lang.Class.classForName(Native Method)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:251)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at java.lang.Class.forName(Class.java:216)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at android.os.Looper.loop(Looper.java:193)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-27 17:06:33.522 W/ProxyFactroy(11900): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	... 10 more
+12-27 17:06:33.522 W/ProxyFactroy(11900): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+12-27 17:06:33.522 W/ProxyFactroy(11900): 	... 10 more
+12-27 17:06:33.526 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.SettingActivity](this:0xb8ce7790,id:385,api:1,p:11877,c:244) connect: api=1 producer=(11877:com.djr.zichanjia) producerControlledByApp=true
+12-27 17:06:33.526 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.SettingActivity](this:0xb8ce7790,id:385,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 17:06:33.531 E/gsc     (11877): 账户管理请求完成：  {"status":"1","message":"成功","data":{"user":{"u_is_mail_checked":0,"u_is_magic_user":0,"u_user_security_level":4,"u_id":7,"u_user_name":"ZCJ274153004","u_id_number":"230403198803300024","u_user_phone":"18511302741","u_is_phone_checked":1,"u_user_status":0,"u_password":"6a660931c72838912348697dde5d4496","u_is_real_name_checked":1,"u_real_name":"李晶"}}}
+12-27 17:06:33.570 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.SettingActivity](this:0xb8ce7790,id:385,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 17:06:33.594 I/BufferQueue(  244): [com.djr.zichanjia/com.djr.zichanjia.activity.SettingActivity](this:0xb8ce7790,id:385,api:1,p:11877,c:244) new GraphicBuffer needed
+12-27 17:06:33.944 E/BASEACTIVITY(11877): ++++++++++++++++++++++++++++++++++

@@ -1,0 +1,3 @@
+Wed, 28 Dec 2016 11:25:41 givelog.py[line:15] ERROR Message: An element could not be located on the page using the given search parameters.
+
+Wed, 28 Dec 2016 11:25:41 givelog.py[line:15] ERROR 设备10.167.170.31中，元素com.djr.zichanjia:id/login_user_name_ed2不存在
