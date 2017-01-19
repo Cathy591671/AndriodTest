@@ -26,16 +26,15 @@ class function_scripts():
 
     def test_swipe(self):
         self.base.swipeToLeft()
-        idnum='com.djr.zichanjia:id/btn_login'
+        x=None
         try:
-            elementx=self.base.findele('id',idnum)
-            elementx.click()
+            x=self.base.findele('id','com.djr.zichanjia:id/btn_login')
+            x.click()
             print 'elementx is:'
-            print elementx
+            print x
             return 'success'
         except Exception as e:
-            print idnum
-            return 'element '+idnum+' is not exist'
+            return x
 
 
     def tearDown(self):
@@ -44,20 +43,26 @@ class function_scripts():
 
 
     def test_login(self):
+        x=None
         try:
-            self.base.findele('id','com.djr.zichanjia:id/main_me').click()
+            x=self.base.findele('id','com.djr.zichanjia:id/main_me')
+            x.click()
             time.sleep(1)
-            text=self.base.findele('id','com.djr.zichanjia:id/tv_dianzixieyi').get_attribute('text')
+            x=self.base.findele('id','com.djr.zichanjia:id/tv_dianzixieyi')
+            text=x.get_attribute('text')
             self.base.checkText('《资产家平台服务协议》',text)
             print text
-            self.base.findele('id','com.djr.zichanjia:id/login_user_name_ed').send_keys('18511302741')
+            x=self.base.findele('id','com.djr.zichanjia:id/login_user_name_ed1')
+            x.send_keys('18511302741')
             time.sleep(2)
-            self.base.findele('id','com.djr.zichanjia:id/login_user_pad_ed').send_keys('qweasd123')
-            self.base.findele('id','com.djr.zichanjia:id/login_btn').click()
+            x=self.base.findele('id','com.djr.zichanjia:id/login_user_pad_ed')
+            x.send_keys('qweasd123')
+            x=self.base.findele('id','com.djr.zichanjia:id/login_btn')
+            x.click()
             time.sleep(2)
             return 'success'
         except Exception as e:
-            return 'fail'
+            return x
 
 
 

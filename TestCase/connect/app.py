@@ -20,21 +20,19 @@ class andriodScript():
 
     #定位元素
     def findele(self,*loc):
-        el=''
-        if loc[0] == 'id':
-            el=self.driver.find_element_by_id(loc[1])
-        elif loc[0] == 'name':
-            el=self.driver.find_element_by_name(loc[1])
-        assert el
-        return el
-    '''
+        try:
+            el=''
+            if loc[0] == 'id':
+                el=self.driver.find_element_by_id(loc[1])
+            elif loc[0] == 'name':
+                el=self.driver.find_element_by_name(loc[1])
+            assert el
+            return el
         except Exception as e:
-            print e
-            #givelog.errorlog(e)
-            errorinfo="device"+self.ip+"，element"+loc[1]+"is not exist"
+            errorinfo="device "+self.ip+"，element "+loc[1]+" is not exist"
             print errorinfo
             return errorinfo
-
+    '''
             givelog.errorlog("设备"+self.ip+"中，元素"+loc[1]+"不存在")
             self.takephoto(self.ip)
             '''
