@@ -153,9 +153,18 @@ def adbuninstall(ip,packageName,apk):
 
         print time.strftime("%H:%M:%S",time.localtime(time.time()))+'----already installed on %s ，uninstalling...'%(ip)
         os.popen(uninstall_cmd)
-        manyinstall(ip,apk)
+        x=manyinstall(ip,apk)
+        if x is True:
+            return True
+        else:
+            return False
+
     else:
-        manyinstall(ip,apk)
+        x=manyinstall(ip,apk)
+        if x is True:
+            return True
+        else:
+            return False
 
 
 #生成日志

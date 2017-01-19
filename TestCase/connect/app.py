@@ -20,19 +20,24 @@ class andriodScript():
 
     #定位元素
     def findele(self,*loc):
-        try:
-            el=''
-            if loc[0] == 'id':
-                el=self.driver.find_element_by_id(loc[1])
-            elif loc[0] == 'name':
-                el=self.driver.find_element_by_name(loc[1])
-            assert el
-            return el
+        el=''
+        if loc[0] == 'id':
+            el=self.driver.find_element_by_id(loc[1])
+        elif loc[0] == 'name':
+            el=self.driver.find_element_by_name(loc[1])
+        assert el
+        return el
+    '''
         except Exception as e:
-            givelog.errorlog(e)
-            print("设备"+self.ip+"中，元素"+loc[1]+"不存在")
+            print e
+            #givelog.errorlog(e)
+            errorinfo="device"+self.ip+"，element"+loc[1]+"is not exist"
+            print errorinfo
+            return errorinfo
+
             givelog.errorlog("设备"+self.ip+"中，元素"+loc[1]+"不存在")
             self.takephoto(self.ip)
+            '''
 
     #截屏
     def takephoto(self,ip):
@@ -45,7 +50,7 @@ class andriodScript():
         height=self.driver.get_window_size()['height']
 
         self.driver.swipe(width * 3 / 4, height * 3 / 4, width * 1 / 4, height  * 3 / 4,300)
-        print '滑动了'
+        print 'swipe successful'
 
     #返回
     def back(self):

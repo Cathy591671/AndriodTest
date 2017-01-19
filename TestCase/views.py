@@ -13,6 +13,7 @@ from django.http import HttpResponseRedirect
 from django. contrib import auth
 from django.contrib.auth.decorators import login_required, permission_required
 from django.views.generic import TemplateView
+from connect import scripts
 
 iptxt=os.getcwd()+"\\ip.txt"
 f=open(iptxt)
@@ -20,6 +21,7 @@ lines=f.readlines()
 for ipline in lines:
          i=ipline.strip("\n")
          ip=i.split("|")[0]
+         port=i.split("|")[1]
 
 iptxt=os.getcwd()+"\\config.txt"
 f=open(iptxt)
@@ -45,6 +47,8 @@ def connect():
 
 def nomalinstall():
     result=adb.adbuninstall(ip,packageName,apk)
+    print 'result是：'
+    print result
     if result is True:
         installinfo='nomalinstall success'
         return installinfo
@@ -61,10 +65,19 @@ def coverinstall():
     else:
         installinfo='coverinstall failed'
         return installinfo
+'''
+def function_swipe():
+    fs=scripts.function_scripts()
+    fs.setUp(ip,port,apk)
+    result=fs.test_swipe()
+    fs.tearDown()
+    '''
 
 def run(request):
     connectInfo=connect()
     installinfo=''
+    swiptinfo=''
+    logininfo=''
     #如果连接手机成功，可以继续装包
     if connectInfo=='connect successful':
         install_checked = request. POST. get('install' , ' ' )
@@ -74,7 +87,20 @@ def run(request):
         elif install_checked=='1':
             print install_checked
             installinfo=nomalinstall()
-    return render_to_response('result.html',{'connectInfo': connectInfo, 'installinfo': installinfo} )
+    function_checked= request. POST. getlist('function' , ' ' )
+    print 'function_checked:'
+    print function_checked
+    fs=scripts.function_scripts()
+    fs.setUp(ip,port,apk)
+    if 'guide' in function_checked:
+        swiptinfo=fs.test_swipe()
+    if 'login' in function_checked:
+        logininfo=fs.test_login()
+    fs.tearDown()
+
+
+    return render_to_response('result.html',{'connectInfo': connectInfo, 'installinfo': installinfo, 'swiptinfo': swiptinfo, 'logininfo':logininfo} )
+
 
 
 

@@ -1,0 +1,11 @@
+Tue, 17 Jan 2017 18:31:54 base.py[line:284] ERROR Internal Server Error: /run/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\djangoProject\AndriodTest\TestCase\views.py", line 94, in run
+    caseinfo=fs.test_swipe()
+  File "E:\djangoProject\AndriodTest\TestCase\connect\scripts.py", line 32, in test_swipe
+    elementx.click()
+AttributeError: 'NoneType' object has no attribute 'click'
