@@ -50,9 +50,11 @@ class function_scripts():
             time.sleep(1)
             x=self.base.findele('id','com.djr.zichanjia:id/tv_dianzixieyi')
             text=x.get_attribute('text')
-            self.base.checkText('《资产家平台服务协议》',text)
+            check=self.base.checkText('《资产家平台服务协议2》',text)
+            if check:
+                return check
             print text
-            x=self.base.findele('id','com.djr.zichanjia:id/login_user_name_ed1')
+            x=self.base.findele('id','com.djr.zichanjia:id/login_user_name_ed')
             x.send_keys('18511302741')
             time.sleep(2)
             x=self.base.findele('id','com.djr.zichanjia:id/login_user_pad_ed')

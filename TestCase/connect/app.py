@@ -60,12 +60,11 @@ class andriodScript():
         try:
             assert exp == real
         except Exception as e:
-            givelog.errorlog(e)
+            errorinfo='in device '+self.ip+' exp is '+exp+' but the real is '+real
+            print errorinfo
+            return errorinfo
         #except AssertionError,  e:
-            print("设备"+self.ip+"中，预期显示"+exp+",实际显示的是"+real)
-            givelog.errorlog("设备"+self.ip+"中，预期显示"+exp+",实际显示的是"+real)
-            self.takephoto(self.ip)
-            #raise e
+
 
 
     def zichanjia(self,ip,port,apkname):

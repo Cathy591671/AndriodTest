@@ -14,6 +14,8 @@ from django. contrib import auth
 from django.contrib.auth.decorators import login_required, permission_required
 from django.views.generic import TemplateView
 from connect import scripts
+from multiprocessing import Process
+from multiprocessing import Pool
 
 iptxt=os.getcwd()+"\\ip.txt"
 f=open(iptxt)
@@ -28,7 +30,8 @@ f=open(iptxt)
 configinfo=f.readlines()
 packageName= configinfo[0].strip("\n")
 apk= configinfo[1].strip("\n")
-
+paramList=[]
+resultList=[]
 # Create your views here.
 def index(request):
     return render(request, "index.html")
@@ -36,43 +39,75 @@ def connect():
     result=adb.many_connect(ip)
     print result
     if result:
-        connectInfo='connect successful'
+        connectInfo='connected successfully'
         return connectInfo
 
     else:
-        connectInfo='connect failed'
+        connectInfo='connected failed'
         return connectInfo
 
 
 
 def nomalinstall():
     result=adb.adbuninstall(ip,packageName,apk)
-    print 'result是：'
+    print 'result is：'
     print result
     if result is True:
-        installinfo='nomalinstall success'
+        installinfo='normal installed successfully'
         return installinfo
     else:
-        installinfo='nomalinstall failed'
+        installinfo='normal installed failed'
         return installinfo
 
 
 def coverinstall():
     result=adb.manyinstall(ip,apk)
     if result is True:
-        installinfo='coverinstall success'
+        installinfo='cover installed successfully'
         return installinfo
     else:
-        installinfo='coverinstall failed'
+        installinfo='cover installed failed'
         return installinfo
-'''
-def function_swipe():
-    fs=scripts.function_scripts()
-    fs.setUp(ip,port,apk)
-    result=fs.test_swipe()
-    fs.tearDown()
-    '''
 
+def manyFunction(install_checked,function_checked):
+    connectInfo=connect()
+    resultList.append(connectInfo)
+    if connectInfo=='connected successfully':
+        if install_checked=='2':
+            x=coverinstall()
+            resultList.append(x)
+        elif install_checked=='1':
+            x=nomalinstall()
+            resultList.append(x)
+        fs=scripts.function_scripts()
+        fs.setUp(ip,port,apk)
+        if 'guide' in function_checked:
+            swiptinfo=fs.test_swipe()
+            resultList.append(swiptinfo)
+        if 'login' in function_checked:
+            logininfo=fs.test_login()
+            resultList.append(logininfo)
+        fs.tearDown()
+        print 'resultList:'
+        print resultList
+        return resultList
+
+def run(request):
+    result=[]
+    install_checked = request. POST. get('install' , ' ' )
+    function_checked= request. POST. getlist('function' , ' ' )
+    print '==='+install_checked
+    #paramList.append(install_checked)
+    p = Pool(processes=4)
+    resultList.append(p.apply_async(manyFunction, (install_checked,function_checked,)))
+    p.close()
+    p.join()
+    for res in resultList:
+        result=res.get()
+        print ":::", result
+    return render_to_response('result.html',{'connectinfo':result[0], 'installinfo':result[1],'welcomeinfo':result[2],'logininfo':result[3]})
+
+'''
 def run(request):
     connectInfo=connect()
     installinfo=''
@@ -100,6 +135,9 @@ def run(request):
 
 
     return render_to_response('result.html',{'connectInfo': connectInfo, 'installinfo': installinfo, 'swiptinfo': swiptinfo, 'logininfo':logininfo} )
+
+'''
+
 
 
 
