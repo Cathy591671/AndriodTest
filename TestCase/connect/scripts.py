@@ -50,7 +50,7 @@ class function_scripts():
             time.sleep(1)
             x=self.base.findele('id','com.djr.zichanjia:id/tv_dianzixieyi')
             text=x.get_attribute('text')
-            check=self.base.checkText('《资产家平台服务协议2》',text)
+            check=self.base.checkText('《资产家平台服务协议》',text)
             if check:
                 return check
             print text
