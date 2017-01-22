@@ -1,19 +1,14 @@
 from multiprocessing import Process
 from multiprocessing import Pool
-result=[]
-para=[]
+import time
 
+la=[1,2,3,4,5,6]
 def a():
-    para.append('x')
-    para.append('y')
-    return para
+    la.append(7)
+    print la
 
 if __name__ == '__main__':
-    pool = Pool(processes=4)
-    result.append(pool.apply_async(a))
-    pool.close()
-    pool.join()
-    for res in result:
-        print ":::", res.get()
+    a()
+
 
 

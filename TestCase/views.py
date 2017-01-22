@@ -20,10 +20,7 @@ from multiprocessing import Pool
 iptxt=os.getcwd()+"\\ip.txt"
 f=open(iptxt)
 lines=f.readlines()
-for ipline in lines:
-         i=ipline.strip("\n")
-         ip=i.split("|")[0]
-         port=i.split("|")[1]
+
 
 iptxt=os.getcwd()+"\\config.txt"
 f=open(iptxt)
@@ -31,53 +28,56 @@ configinfo=f.readlines()
 packageName= configinfo[0].strip("\n")
 apk= configinfo[1].strip("\n")
 paramList=[]
-resultList=[]
+#resultList=[]
+
 # Create your views here.
 def index(request):
     return render(request, "index.html")
-def connect():
+def connect(ip):
     result=adb.many_connect(ip)
     print result
     if result:
-        connectInfo='connected successfully'
+        connectInfo='device'+ip+'connected successfully'
         return connectInfo
 
     else:
-        connectInfo='connected failed'
+        connectInfo='device'+ip+'connected failed'
         return connectInfo
 
 
 
-def nomalinstall():
+def nomalinstall(ip,packageName,apk):
+
     result=adb.adbuninstall(ip,packageName,apk)
     print 'result is：'
     print result
     if result is True:
-        installinfo='normal installed successfully'
+        installinfo='device'+ip+'normal installed successfully'
         return installinfo
     else:
-        installinfo='normal installed failed'
+        installinfo='device'+ip+'normal installed failed'
         return installinfo
 
 
-def coverinstall():
+def coverinstall(ip,apk):
     result=adb.manyinstall(ip,apk)
     if result is True:
-        installinfo='cover installed successfully'
+        installinfo='device'+ip+'cover installed successfully'
         return installinfo
     else:
-        installinfo='cover installed failed'
+        installinfo='device'+ip+'cover installed failed'
         return installinfo
 
-def manyFunction(install_checked,function_checked):
-    connectInfo=connect()
+def manyFunction(ip,apk,port,packageName,install_checked,function_checked):
+    resultList=[]
+    connectInfo=connect(ip)
     resultList.append(connectInfo)
-    if connectInfo=='connected successfully':
+    if 'connected successfully' in connectInfo:
         if install_checked=='2':
-            x=coverinstall()
+            x=coverinstall(ip,apk)
             resultList.append(x)
         elif install_checked=='1':
-            x=nomalinstall()
+            x=nomalinstall(ip,packageName,apk)
             resultList.append(x)
         fs=scripts.function_scripts()
         fs.setUp(ip,port,apk)
@@ -93,19 +93,28 @@ def manyFunction(install_checked,function_checked):
         return resultList
 
 def run(request):
-    result=[]
+    resultList=[]
+    sumlist=[]
     install_checked = request. POST. get('install' , ' ' )
     function_checked= request. POST. getlist('function' , ' ' )
     print '==='+install_checked
     #paramList.append(install_checked)
-    p = Pool(processes=4)
-    resultList.append(p.apply_async(manyFunction, (install_checked,function_checked,)))
+    p = Pool(processes=5)
+    for ipline in lines:
+        i=ipline.strip("\n")
+        ip=i.split("|")[0]
+        port=i.split("|")[1]
+        resultList.append(p.apply_async(manyFunction, (ip,apk,port,packageName,install_checked,function_checked,)))
     p.close()
     p.join()
     for res in resultList:
+        print '=============='
         result=res.get()
-        print ":::", result
-    return render_to_response('result.html',{'connectinfo':result[0], 'installinfo':result[1],'welcomeinfo':result[2],'logininfo':result[3]})
+        print result
+        sumlist.append(result)
+        print sumlist
+    #return render_to_response('result.html',{'connectinfo':result[0], 'installinfo':installres,'welcomeinfo':welcomeres,'logininfo':loginres})
+    return render_to_response('result.html',{'result':sumlist})
 
 '''
 def run(request):

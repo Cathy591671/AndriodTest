@@ -32,7 +32,7 @@ class function_scripts():
             x.click()
             print 'elementx is:'
             print x
-            return 'success'
+            return 'device '+self.ip+' swipe success'
         except Exception as e:
             return x
 
@@ -62,7 +62,7 @@ class function_scripts():
             x=self.base.findele('id','com.djr.zichanjia:id/login_btn')
             x.click()
             time.sleep(2)
-            return 'success'
+            return 'device '+self.ip+' login success'
         except Exception as e:
             return x
 
