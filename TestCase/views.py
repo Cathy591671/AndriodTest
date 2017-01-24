@@ -37,11 +37,11 @@ def connect(ip):
     result=adb.many_connect(ip)
     print result
     if result:
-        connectInfo='device'+ip+'connected successfully'
+        connectInfo='device'+ip+' connected successfully'
         return connectInfo
 
     else:
-        connectInfo='device'+ip+'connected failed'
+        connectInfo='device'+ip+' connected failed'
         return connectInfo
 
 

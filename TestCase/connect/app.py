@@ -29,7 +29,7 @@ class andriodScript():
             assert el
             return el
         except Exception as e:
-            errorinfo="device "+self.ip+"，element "+loc[1]+" is not exist"
+            errorinfo="device "+self.ip+"  element "+loc[1]+" is not exist"
             print errorinfo
             return errorinfo
     '''

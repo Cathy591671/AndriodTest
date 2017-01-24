@@ -3,11 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Result</title>
+    <style type="text/css">
+    table{border-collapse:collapse;border-spacing:0;border-left:1px solid #888;border-top:1px solid #888;background:#efefef;}
+th,td{border-right:1px solid #888;border-bottom:1px solid #888;padding:5px 15px;}
+th{font-weight:bold;background:#ccc;}
+</style>
 </head>
 <body>
 
-    <b>result:</b>{{ result }}<br><br>
+<h2>Test Result</h2>
+{% if result %}
+    {% for foo in result %}
+        <table border="1" cellspacing="0" cellpadding="0">
+        {% for x in foo %}
+            <tr>
+                <td>{{ x }}</td>
 
+            </tr>
+        {% endfor %}
+
+        </table>
+        <br>
+    {% endfor %}
+
+{% endif %}
 
 </body>
+
 </html>

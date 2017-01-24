@@ -28,7 +28,7 @@ class function_scripts():
         self.base.swipeToLeft()
         x=None
         try:
-            x=self.base.findele('id','com.djr.zichanjia:id/btn_login')
+            x=self.base.findele('id','com.djr.zichanjia:id/btn_login1')
             x.click()
             print 'elementx is:'
             print x
