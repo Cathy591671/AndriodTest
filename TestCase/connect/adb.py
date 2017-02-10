@@ -169,12 +169,11 @@ def adbuninstall(ip,packageName,apk):
 
 #生成日志
 def error_log(ip,packageName):
-
+    #日志文件命名
     filename =log_path+"\\"+ip+'-'+logdaystr+".log"
     logcat_file = open(filename, 'w')
 
-
-    #获取pid
+    #根据包名和ip获取程序的pid
     #pid_cmd = "adb -s %s:5555:5555 shell busybox pgrep %s"%(ip,packageName)
     pid_cmd = "adb -s %s:5555 shell  pgrep %s"%(ip,packageName)
 
@@ -193,26 +192,20 @@ def error_log(ip,packageName):
 
     iplen=len(pidstr)
     print iplen
-    if iplen > 0:
+    #程序启动了 存在pid
+    if iplen > 1:
         #log_cmd = 'adb -s %s:5555 logcat -v time | findstr "%s" >%s\%s-%s.txt'%(ip,pidstr,log_path,ip,logdaystr)
         #log_cmd = 'adb -s %s:5555:5555 logcat -v time *:I | findstr "%s"'%(ip,pidstr)
-        log_cmd = 'adb -s %s:5555 logcat -v time *:I | findstr "%s"'%(ip,pidstr)
+        log_cmd = 'adb -s %s:5555 logcat -v time *:W | findstr "%s"'%(ip,pidstr)
 
         print log_cmd
         #此处不能用os.system,阻塞，外部命令不停止无法继续进行
         process=subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE,shell=True)
         time.sleep(5)
         process.kill()
-        print('在%s上打印日志完毕'%(ip))
+        print('%s log has been finished'%(ip))
         logcat_file.close()
-    else:
-        log_cmd = 'adb -s %s:5555 logcat -v time'%(ip)
 
-        print log_cmd
-        process=subprocess.Popen(log_cmd, stdout=logcat_file, stderr=subprocess.PIPE,shell=True)
-        time.sleep(5)
-        process.kill()
-        logcat_file.close()
 
 
 

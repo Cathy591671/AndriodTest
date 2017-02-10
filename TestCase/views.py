@@ -16,6 +16,8 @@ from django.views.generic import TemplateView
 from connect import scripts
 from multiprocessing import Process
 from multiprocessing import Pool
+import datetime
+import subprocess
 
 iptxt=os.getcwd()+"\\ip.txt"
 f=open(iptxt)
@@ -29,10 +31,20 @@ packageName= configinfo[0].strip("\n")
 apk= configinfo[1].strip("\n")
 paramList=[]
 #resultList=[]
+monkeylog_path=os.getcwd()+"\\monkeylog"
+logdaystr = datetime.date.today().strftime('%Y.%m.%d')
 
 # Create your views here.
 def index(request):
     return render(request, "index.html")
+def monkey(ip):
+    filename =monkeylog_path+"\\"+ip+'-'+logdaystr+".log"
+    monkeylog_file = open(filename, 'w')
+    monkeyStr='adb -s %s:5555 shell monkey -p %s -v-v 1000'%(ip,packageName)
+    #os.popen(monkeyStr)
+    process=subprocess.Popen(monkeyStr, stdout=monkeylog_file, stderr=subprocess.PIPE,shell=True)
+    print 'monkey finished'
+    monkeylog_file.close()
 def connect(ip):
     result=adb.many_connect(ip)
     print result
@@ -68,7 +80,7 @@ def coverinstall(ip,apk):
         installinfo='device'+ip+'cover installed failed'
         return installinfo
 
-def manyFunction(ip,apk,port,packageName,install_checked,function_checked):
+def manyFunction(ip,apk,port,packageName,install_checked,function_checked,monkey_checked):
     resultList=[]
     connectInfo=connect(ip)
     resultList.append(connectInfo)
@@ -80,14 +92,20 @@ def manyFunction(ip,apk,port,packageName,install_checked,function_checked):
             x=nomalinstall(ip,packageName,apk)
             resultList.append(x)
         fs=scripts.function_scripts()
-        fs.setUp(ip,port,apk)
-        if 'guide' in function_checked:
-            swiptinfo=fs.test_swipe()
-            resultList.append(swiptinfo)
-        if 'login' in function_checked:
-            logininfo=fs.test_login()
-            resultList.append(logininfo)
-        fs.tearDown()
+        print 'function_checked'
+        print len(function_checked[0])
+        if len(function_checked[0])>1:
+            fs.setUp(ip,port,apk)
+            if 'guide' in function_checked:
+                swiptinfo=fs.test_swipe()
+                resultList.append(swiptinfo)
+            if 'login' in function_checked:
+                logininfo=fs.test_login()
+                resultList.append(logininfo)
+            fs.tearDown()
+        if 'monkey' in monkey_checked:
+            monkey(ip)
+        adb.error_log(ip,packageName)
         print 'resultList:'
         print resultList
         return resultList
@@ -97,6 +115,7 @@ def run(request):
     sumlist=[]
     install_checked = request. POST. get('install' , ' ' )
     function_checked= request. POST. getlist('function' , ' ' )
+    monkey_checked=request. POST. get('monkey' , ' ' )
     print '==='+install_checked
     #paramList.append(install_checked)
     p = Pool(processes=5)
@@ -104,7 +123,7 @@ def run(request):
         i=ipline.strip("\n")
         ip=i.split("|")[0]
         port=i.split("|")[1]
-        resultList.append(p.apply_async(manyFunction, (ip,apk,port,packageName,install_checked,function_checked,)))
+        resultList.append(p.apply_async(manyFunction, (ip,apk,port,packageName,install_checked,function_checked,monkey_checked,)))
     p.close()
     p.join()
     for res in resultList:
@@ -113,7 +132,6 @@ def run(request):
         print result
         sumlist.append(result)
         print sumlist
-    #return render_to_response('result.html',{'connectinfo':result[0], 'installinfo':installres,'welcomeinfo':welcomeres,'logininfo':loginres})
     return render_to_response('result.html',{'result':sumlist})
 
 '''

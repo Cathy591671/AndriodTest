@@ -1,0 +1,203 @@
+02-07 17:55:53.300 E/ActivityManager(  860): START {cmp=com.djr.zichanjia/.activity.WelcomeActivity u=0} from pid 13152
+02-07 17:55:56.728 E/ActivityManager(  860): START {cmp=com.djr.zichanjia/.activity.MainActivity u=0} from pid 13152
+02-07 17:55:59.035 E/ActivityManager(  860): START {cmp=com.djr.zichanjia/.activity.LoginActivity u=0} from pid 13152
+02-07 17:55:59.118 E/gsc     (13152): ---------is_remmber_login_name is check
+02-07 17:55:59.135 W/ProxyFactroy(13177): instance_base
+02-07 17:55:59.135 W/ProxyFactroy(13177): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at java.lang.Class.classForName(Native Method)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at java.lang.Class.forName(Class.java:251)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at java.lang.Class.forName(Class.java:216)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at android.os.Looper.loop(Looper.java:193)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+02-07 17:55:59.135 W/ProxyFactroy(13177): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	... 10 more
+02-07 17:55:59.135 W/ProxyFactroy(13177): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+02-07 17:55:59.135 W/ProxyFactroy(13177): 	... 10 more
+02-07 17:55:59.604 E/BASEACTIVITY(13152): ++++++++++++++++++++++++++++++++++
+02-07 17:56:19.816 E/BASEACTIVITY(13152): ++++++++++++++++++++++++++++++++++
+02-07 17:56:19.825 E/BASEACTIVITY(13152): false
+02-07 17:56:20.105 E/ActivityManager(  860): START {cmp=com.djr.zichanjia/.activity.SplashActivity u=0} from pid 13152
+02-07 17:56:20.212 W/ProxyFactroy(13177): instance_base
+02-07 17:56:20.212 W/ProxyFactroy(13177): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at java.lang.Class.classForName(Native Method)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at java.lang.Class.forName(Class.java:251)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at java.lang.Class.forName(Class.java:216)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at android.os.Looper.loop(Looper.java:193)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+02-07 17:56:20.212 W/ProxyFactroy(13177): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	... 10 more
+02-07 17:56:20.212 W/ProxyFactroy(13177): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+02-07 17:56:20.212 W/ProxyFactroy(13177): 	... 10 more
+02-07 17:56:20.230 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@451ffc98, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83471439, downTime=83471439, deviceId=-1, source=0x101 }
+02-07 17:56:20.637 W/InputMethodManagerService(  860): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@47036160 (uid=10587 pid=13152)
+02-07 17:56:20.637 W/InputMethodManager(13152): startInputInner : InputBindResult == null
+02-07 17:56:20.895 E/gsc     (13152): ---------is_remmber_login_name,click set true
+02-07 17:56:20.936 E/gsc     (13152): istvBAckV5qDaj2G//yfUw2hPFqEAJ7V5WnA6txaQwUfysxAReZBCnmQm8gliatcTx6yvwvc/jHw=
+02-07 17:56:20.936 E/gsc     (13152): 登录请求url：   http://10.167.201.176:9090/zcj/front/login/userLogin?uUserName=18511302741&uPassword=qweasd123&origin=2
+02-07 17:56:20.943 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45512aa0, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83472243, downTime=83472243, deviceId=-1, source=0x101 }
+02-07 17:56:20.978 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@455235d8, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83472292, downTime=83472292, deviceId=-1, source=0x101 }
+02-07 17:56:20.983 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@4552d8a8, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83472322, downTime=83472322, deviceId=-1, source=0x101 }
+02-07 17:56:21.032 E/responseString(13152): {"status":"1","message":"成功","data":[{"realName":"李晶","beforeLoginTime":"2017-02-07 17:54:19","balance":0.0,"isEmailChecked":0,"nameChecked":1,"magicUser":0,"userName":"ZCJ274153004","token":"ZCJ_USER_LOGIN_APPde74fc593056301548da2e0dc7130dab_18511302741"}]}
+02-07 17:56:21.144 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45226f60, keyCode=KEYCODE_FORWARD, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83472377, downTime=83472377, deviceId=-1, source=0x101 }
+02-07 17:56:21.220 E/gsc     (13152): ---------is_remmber_login_name,click set true
+02-07 17:56:21.229 E/gsc     (13152): istvBAckV5qDaj2G//yfUw2hPFqEAJ7V5WnA6txaQwUfysxAReZBCnmQm8gliatcTx6yvwvc/jHw=
+02-07 17:56:21.229 E/gsc     (13152): 登录请求url：   http://10.167.201.176:9090/zcj/front/login/userLogin?uUserName=18511302741&uPassword=qweasd123&origin=2
+02-07 17:56:21.263 W/InputEventReceiver(13152): Attempted to finish an input event but the input event receiver has already been disposed.
+02-07 17:56:21.264 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@4438af30, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83472569, downTime=83472569, deviceId=-1, source=0x101 }
+02-07 17:56:21.289 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45563d30, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83472614, downTime=83472614, deviceId=-1, source=0x101 }
+02-07 17:56:21.292 E/responseString(13152): {"status":"1","message":"成功","data":[{"realName":"李晶","beforeLoginTime":"2017-02-07 17:56:03","balance":0.0,"isEmailChecked":0,"nameChecked":1,"magicUser":0,"userName":"ZCJ274153004","token":"ZCJ_USER_LOGIN_APPde74fc593056301548da2e0dc7130dab_18511302741"}]}
+02-07 17:56:21.323 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@447d6bb0, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83472645, downTime=83472645, deviceId=-1, source=0x101 }
+02-07 17:56:21.327 E/ActivityManager(  860): START {cmp=com.djr.zichanjia/.activity.FuYouWebActivity (has extras) u=0} from pid 13152
+02-07 17:56:21.473 W/chromium(13152): [WARNING:proxy_config_service_android.cc(341)] PROXY>>> bypass->
+02-07 17:56:21.480 E/SQLiteLog(13152): (10) Failed to do file read, got: 0, amt: 100, last Errno: 2
+02-07 17:56:21.480 E/SQLiteLog(13152): 
+02-07 17:56:21.481 W/chromium(13152): [WARNING:proxy_service.cc(890)] PAC support disabled because there is no system implementation
+02-07 17:56:21.489 W/chromium(13152): [WARNING:password_handler.cc(26)] create-->contents = 0x7b5219c8, delegate = 0x7b647a10
+02-07 17:56:21.489 W/chromium(13152): [WARNING:password_handler.cc(34)] attaching to web_contents 
+02-07 17:56:21.542 W/ProxyFactroy(13177): instance_base
+02-07 17:56:21.542 W/ProxyFactroy(13177): java.lang.ClassNotFoundException: org.android.agoo.impl.ControlService
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at java.lang.Class.classForName(Native Method)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at java.lang.Class.forName(Class.java:251)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at java.lang.Class.forName(Class.java:216)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at org.android.agoo.d.a.a(ProxyFactroy.java:26)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at org.android.agoo.d.a.getInstance(ProxyFactroy.java:14)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at org.android.agoo.client.BaseIntentService.onHandleIntent(BaseIntentService.java:71)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at android.os.Handler.dispatchMessage(Handler.java:110)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at android.os.Looper.loop(Looper.java:193)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+02-07 17:56:21.542 W/ProxyFactroy(13177): Caused by: java.lang.NoClassDefFoundError: org/android/agoo/impl/ControlService
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	... 10 more
+02-07 17:56:21.542 W/ProxyFactroy(13177): Caused by: java.lang.ClassNotFoundException: Didn't find class "org.android.agoo.impl.ControlService" on path: DexPathList[[zip file "/data/app/com.djr.zichanjia-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.djr.zichanjia-1, /vendor/lib, /system/lib]]
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+02-07 17:56:21.542 W/ProxyFactroy(13177): 	... 10 more
+02-07 17:56:21.565 W/ViewRootImpl(13152): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=0.0, y[0]=-3.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=3, eventTime=83472898, downTime=-1, deviceId=0, source=0x10004 }
+02-07 17:56:21.567 W/AwContents(13152): getEffectiveBackgroundColor
+02-07 17:56:21.604 W/AwContents(13152): getEffectiveBackgroundColor
+02-07 17:56:21.663 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:21.672 W/chromium(13152): [WARNING:simple_index_file.cc(338)] Could not map Simple Index file.
+02-07 17:56:21.680 W/WebViewChromium(13152): [requestDrawGL] mGLfunctor=null
+02-07 17:56:21.713 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2273)
+02-07 17:56:21.713 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:21.722 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2273)
+02-07 17:56:21.723 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:21.745 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:21.992 E/BASEACTIVITY(13152): ++++++++++++++++++++++++++++++++++
+02-07 17:56:22.013 E/WindowManager(13152): 
+02-07 17:56:22.013 E/WindowManager(13152): android.view.WindowLeaked: Activity com.djr.zichanjia.activity.LoginActivity has leaked window com.android.internal.policy.impl.PhoneWindow$DecorView{427454c8 V.E..... R.....I. 0,0-864,560} that was originally added here
+02-07 17:56:22.013 E/WindowManager(13152): 	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:480)
+02-07 17:56:22.013 E/WindowManager(13152): 	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:250)
+02-07 17:56:22.013 E/WindowManager(13152): 	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:69)
+02-07 17:56:22.013 E/WindowManager(13152): 	at android.app.Dialog.show(Dialog.java:318)
+02-07 17:56:22.013 E/WindowManager(13152): 	at com.djr.zichanjia.BaseActivity.getOneBtnDialog(BaseActivity.java:214)
+02-07 17:56:22.013 E/WindowManager(13152): 	at com.djr.zichanjia.activity.LoginActivity$4.onResponse(LoginActivity.java:225)
+02-07 17:56:22.013 E/WindowManager(13152): 	at com.djr.zichanjia.activity.LoginActivity$4.onResponse(LoginActivity.java:186)
+02-07 17:56:22.013 E/WindowManager(13152): 	at com.zhy.http.okhttp.b$3.run(OkHttpUtils.java:183)
+02-07 17:56:22.013 E/WindowManager(13152): 	at android.os.Handler.handleCallback(Handler.java:808)
+02-07 17:56:22.013 E/WindowManager(13152): 	at android.os.Handler.dispatchMessage(Handler.java:103)
+02-07 17:56:22.013 E/WindowManager(13152): 	at android.os.Looper.loop(Looper.java:193)
+02-07 17:56:22.013 E/WindowManager(13152): 	at android.app.ActivityThread.main(ActivityThread.java:5468)
+02-07 17:56:22.013 E/WindowManager(13152): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-07 17:56:22.013 E/WindowManager(13152): 	at java.lang.reflect.Method.invoke(Method.java:515)
+02-07 17:56:22.013 E/WindowManager(13152): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:860)
+02-07 17:56:22.013 E/WindowManager(13152): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:676)
+02-07 17:56:22.013 E/WindowManager(13152): 	at dalvik.system.NativeStart.main(Native Method)
+02-07 17:56:22.049 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.070 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2273)
+02-07 17:56:22.070 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.087 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2273)
+02-07 17:56:22.087 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.133 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.261 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.278 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.416 W/chromium(13152): [WARNING:password_handler.cc(170)] OnPasswordFormsParsed called
+02-07 17:56:22.417 W/chromium(13152): [WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+02-07 17:56:22.417 W/chromium(13152): [WARNING:password_handler.cc(172)] OnPasswordFormsParsed IsEnabledSavePassword is false
+02-07 17:56:22.487 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.605 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.647 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.670 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.689 W/chromium(13152): [WARNING:password_handler.cc(170)] OnPasswordFormsParsed called
+02-07 17:56:22.689 W/chromium(13152): [WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+02-07 17:56:22.689 W/chromium(13152): [WARNING:password_handler.cc(172)] OnPasswordFormsParsed IsEnabledSavePassword is false
+02-07 17:56:22.712 W/chromium(13152): [WARNING:password_handler.cc(211)] OnPasswordFormsRendered called
+02-07 17:56:22.712 W/chromium(13152): [WARNING:aw_password_handler_delegate_impl.cc(201)] IsSavePasswordEnabled ret is 
+02-07 17:56:22.712 W/chromium(13152): [WARNING:password_handler.cc(213)] OnPasswordFormsRendered IsEnabledSavePassword is false
+02-07 17:56:22.777 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:22.959 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@429b96e8, keyCode=KEYCODE_U, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83474263, downTime=83474263, deviceId=-1, source=0x101 }
+02-07 17:56:23.030 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45460780, keyCode=KEYCODE_IME_TOGGLE, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83474313, downTime=83474313, deviceId=-1, source=0x101 }
+02-07 17:56:23.229 W/InputEventReceiver(13152): Attempted to finish an input event but the input event receiver has already been disposed.
+02-07 17:56:23.230 W/ViewRootImpl(13152): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=199.23483, y[0]=1207.118, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=83474540, downTime=83474538, deviceId=0, source=0x1002 }
+02-07 17:56:23.230 W/InputEventReceiver(13152): Attempted to finish an input event but the input event receiver has already been disposed.
+02-07 17:56:23.369 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:23.471 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@452fe238, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83474780, downTime=83474780, deviceId=-1, source=0x101 }
+02-07 17:56:23.706 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44d78dd8, keyCode=KEYCODE_F12, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83474832, downTime=83474832, deviceId=-1, source=0x101 }
+02-07 17:56:24.415 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44e196a8, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83475750, downTime=83475750, deviceId=-1, source=0x101 }
+02-07 17:56:24.534 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:24.676 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@450b9888, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83475955, downTime=83475955, deviceId=-1, source=0x101 }
+02-07 17:56:24.716 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@450cee68, keyCode=KEYCODE_DPAD_LEFT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83476032, downTime=83476032, deviceId=-1, source=0x101 }
+02-07 17:56:24.760 W/InputEventReceiver(13152): Attempted to finish an input event but the input event receiver has already been disposed.
+02-07 17:56:24.761 W/ViewRootImpl(13152): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=894.3944, y[0]=763.0443, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=83476081, downTime=83476076, deviceId=0, source=0x1002 }
+02-07 17:56:24.761 W/InputEventReceiver(13152): Attempted to finish an input event but the input event receiver has already been disposed.
+02-07 17:56:24.761 W/ViewRootImpl(13152): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=885.4087, y[0]=778.593, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=83476082, downTime=83476076, deviceId=0, source=0x1002 }
+02-07 17:56:24.761 W/InputEventReceiver(13152): Attempted to finish an input event but the input event receiver has already been disposed.
+02-07 17:56:24.762 W/ViewRootImpl(13152): Dropping event due to root view being removed: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=-4.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=9, eventTime=83476073, downTime=-1, deviceId=0, source=0x10004 }
+02-07 17:56:24.762 W/InputEventReceiver(13152): Attempted to finish an input event but the input event receiver has already been disposed.
+02-07 17:56:25.230 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:25.454 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2273)
+02-07 17:56:25.455 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:25.463 W/chromium(13152): [WARNING:aw_network_delegate.cc(66)] http://180.168.100.155:28160/inlet?term=LQza0NcbrXjxa7%2BBq9jXt0aOYghITUx2jgbl0IZskFP43qL2mTk1r1tscca7lfbyFG8HSt%2FMfdKcHh95a29%2FMzuAu3JGk4RZEgwK98rmcfS34QOZkXNazVdFL6hyFBKX1i%2Be6Z2BfIwxozmRaNAOy2eDu3QkNf5h1LNadw7TezE%3D#-3#1
+02-07 17:56:25.588 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:26.175 W/ViewRootImpl(13152): Dropping event due to no window focus: MotionEvent { action=ACTION_MOVE, id[0]=0, x[0]=-4.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=6, eventTime=83477506, downTime=-1, deviceId=0, source=0x10004 }
+02-07 17:56:26.191 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45ab9550, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83477520, downTime=83477520, deviceId=-1, source=0x101 }
+02-07 17:56:26.268 W/chromium(13152): [WARNING:aw_network_delegate.cc(66)] http://180.168.100.155:28160/inlet?term=LQza0NcbrXjxa7%2BBq9jXt0aOYghITUx2jgbl0IZskFP43qL2mTk1r1tscca7lfbyFG8HSt%2FMfdKcHh95a29%2FMzuAu3JGk4RZEgwK98rmcfS34QOZkXNazVdFL6hyFBKX1i%2Be6Z2BfIwxozmRaNAOy2eDu3QkNf5h1LNadw7TezE%3D#-3#1
+02-07 17:56:26.305 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2273)
+02-07 17:56:26.306 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:26.397 W/chromium(13152): [WARNING:aw_network_delegate.cc(66)] http://180.168.100.155:28160/inlet?term=LQza0NcbrXjxa7%2BBq9jXt0aOYghITUx2jgbl0IZskFP43qL2mTk1r1tscca7lfbyFG8HSt%2FMfdKcHh95a29%2FMzuAu3JGk4RZEgwK98rmcfS34QOZkXNazVdFL6hyFBKX1i%2Be6Z2BfIwxozmRaNAOy2eDu3QkNf5h1LNadw7TezE%3D#-3#1
+02-07 17:56:26.415 W/chromium(13152): [WARNING:aw_network_delegate.cc(66)] http://180.168.100.155:28160/inlet?term=LQza0NcbrXjxa7%2BBq9jXt0aOYghITUx2jgbl0IZskFP43qL2mTk1r1tscca7lfbyFG8HSt%2FMfdKcHh95a29%2FMzuAu3JGk4RZEgwK98rmcfS34QOZkXNazVdFL6hyFBKX1i%2Be6Z2BfIwxozmRaNAOy2eDu3QkNf5h1LNadw7TezE%3D#-3#1
+02-07 17:56:26.616 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:26.658 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:26.735 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2273)
+02-07 17:56:26.735 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:26.792 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@427c7b30, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83478117, downTime=83478117, deviceId=-1, source=0x101 }
+02-07 17:56:26.805 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45337480, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83478146, downTime=83478146, deviceId=-1, source=0x101 }
+02-07 17:56:27.073 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@45426030, keyCode=KEYCODE_BUTTON_X, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83478151, downTime=83478151, deviceId=-1, source=0x101 }
+02-07 17:56:27.604 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44d5c980, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x408, repeatCount=0, eventTime=83478032, downTime=83478032, deviceId=-1, source=0x101 }
+02-07 17:56:27.775 W/ViewRootImpl(13152): Dropping event due to root view being removed: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44f7cc48, keyCode=KEYCODE_INFO, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83479089, downTime=83479089, deviceId=-1, source=0x101 }
+02-07 17:56:27.775 W/InputEventReceiver(13152): Attempted to finish an input event but the input event receiver has already been disposed.
+02-07 17:56:27.777 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@427e3830, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83479117, downTime=83479117, deviceId=-1, source=0x101 }
+02-07 17:56:28.043 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44d85a18, keyCode=KEYCODE_DPAD_UP, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83479359, downTime=83479359, deviceId=-1, source=0x101 }
+02-07 17:56:28.046 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@44f66398, keyCode=KEYCODE_BUTTON_6, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83479387, downTime=83479387, deviceId=-1, source=0x101 }
+02-07 17:56:28.085 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@453af0e0, keyCode=KEYCODE_DPAD_CENTER, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83479387, downTime=83479387, deviceId=-1, source=0x101 }
+02-07 17:56:28.164 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@450144a0, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83479504, downTime=83479504, deviceId=-1, source=0x101 }
+02-07 17:56:28.174 W/ViewRootImpl(13152): Dropping event due to no window focus: KeyEvent { action=ACTION_DOWN, hashcode=android.view.KeyEvent@459a7a58, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=83479508, downTime=83479508, deviceId=-1, source=0x101 }
+02-07 17:56:28.257 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyMultiple called from: android.webkit.WebView.onKeyMultiple(WebView.java:2273)
+02-07 17:56:28.258 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:28.261 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:28.380 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:28.465 W/chromium(13152): [WARNING:aw_network_delegate.cc(66)] http://180.168.100.155:28160/inlet?term=#-3#1
+02-07 17:56:35.875 W/UnimplementedWebViewApi(13152): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2263)
+02-07 17:56:36.417 E/BASEACTIVITY(13152): ++++++++++++++++++++++++++++++++++
+02-07 17:56:37.086 E/gsc     (13152): 资产总揽网络请求:   http://10.167.201.176:9090/zcj/front/usercenter/userAsset/ZCJ_USER_LOGIN_APPde74fc593056301548da2e0dc7130dab_18511302741
+02-07 17:56:37.156 E/gsc     (13152): 资产总揽网络请求:   http://10.167.201.176:9090/zcj/front/usercenter/userAsset/ZCJ_USER_LOGIN_APPde74fc593056301548da2e0dc7130dab_18511302741
+02-07 17:56:37.261 E/gsc     (13152): 资产总揽网络请求完成:   {"status":"1","message":"成功","data":{"projectlist":[{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":78,"m_full_time":"2016-12-29 14:36:35","m_project_no_fouiou":"0021822000000020550","p_project_status":"7","m_rated_money":73320.00,"m_id_no":"441882199301206013","p_project_money":73320.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-29 14:36:35","p_stop_days":3,"m_create_time":"2016-12-29 10:53:18","m_is_flow":"0","m_status":"3","m_product_type":"10","p_buy_type":"1","m_id":119,"p_plan_type":"0","m_start_time":"2016-12-29 14:35:17","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-29 14:34:46","m_project_status":"7","m_money":73320.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612291053187151905","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03110102132","qqq":0.99998636134258943550,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":129,"m_is_earlyback":"1","m_debt_equity":73320.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-29 14:35:17","p_increace_money":100.00,"m_name":"信用贷201612291053187151905","m_number":"03110102132","p_rated_money":73320.00,"m_supple_money":0.00,"m_parent_id":119,"p_rating_money":0.00,"p_id":78,"m_is_overdue":"0"},{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":63,"m_full_time":"2016-12-22 11:04:10","m_project_no_fouiou":"0021822000000020469","p_project_status":"7","m_rated_money":73320.00,"m_id_no":"441882199301206013","p_project_money":73320.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-22 11:04:10","p_stop_days":3,"m_create_time":"2016-12-22 10:36:04","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":98,"p_plan_type":"0","m_start_time":"2016-12-22 10:38:34","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-22 10:38:10","m_project_status":"7","m_money":73320.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612221036048236583","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03110102136","qqq":0.99998636134258943550,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":104,"m_is_earlyback":"0","m_debt_equity":73320.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-22 10:38:34","p_increace_money":100.00,"m_name":"信用贷201612221036048236583","m_number":"03110102136","p_rated_money":73320.00,"m_supple_money":0.00,"m_parent_id":98,"p_rating_money":0.00,"p_id":63,"m_is_overdue":"0"},{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":65,"m_full_time":"2016-12-22 11:29:58","m_project_no_fouiou":"0021822000000020473","p_project_status":"7","m_rated_money":62040.00,"m_id_no":"350521197508100899","p_project_money":62040.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-22 11:29:58","p_stop_days":3,"m_create_time":"2016-12-22 11:16:13","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":103,"p_plan_type":"0","m_start_time":"2016-12-22 11:22:20","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-22 11:20:28","m_project_status":"7","m_money":62040.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612221116130647068","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03120102106","qqq":0.99998388162666623684,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":110,"m_is_earlyback":"0","m_debt_equity":62040.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-22 11:22:20","p_increace_money":100.00,"m_name":"信用贷201612221116130647068","m_number":"03120102106","p_rated_money":62040.00,"m_supple_money":0.00,"m_parent_id":103,"p_rating_money":0.00,"p_id":65,"m_is_overdue":"0"}],"user":{"u_user_security_level
+02-07 17:56:37.290 E/gsc     (13152): 资产总揽网络请求完成:   {"status":"1","message":"成功","data":{"projectlist":[{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":78,"m_full_time":"2016-12-29 14:36:35","m_project_no_fouiou":"0021822000000020550","p_project_status":"7","m_rated_money":73320.00,"m_id_no":"441882199301206013","p_project_money":73320.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-29 14:36:35","p_stop_days":3,"m_create_time":"2016-12-29 10:53:18","m_is_flow":"0","m_status":"3","m_product_type":"10","p_buy_type":"1","m_id":119,"p_plan_type":"0","m_start_time":"2016-12-29 14:35:17","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-29 14:34:46","m_project_status":"7","m_money":73320.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612291053187151905","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03110102132","qqq":0.99998636134258943550,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":129,"m_is_earlyback":"1","m_debt_equity":73320.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-29 14:35:17","p_increace_money":100.00,"m_name":"信用贷201612291053187151905","m_number":"03110102132","p_rated_money":73320.00,"m_supple_money":0.00,"m_parent_id":119,"p_rating_money":0.00,"p_id":78,"m_is_overdue":"0"},{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":63,"m_full_time":"2016-12-22 11:04:10","m_project_no_fouiou":"0021822000000020469","p_project_status":"7","m_rated_money":73320.00,"m_id_no":"441882199301206013","p_project_money":73320.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-22 11:04:10","p_stop_days":3,"m_create_time":"2016-12-22 10:36:04","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":98,"p_plan_type":"0","m_start_time":"2016-12-22 10:38:34","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-22 10:38:10","m_project_status":"7","m_money":73320.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612221036048236583","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03110102136","qqq":0.99998636134258943550,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":104,"m_is_earlyback":"0","m_debt_equity":73320.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-22 10:38:34","p_increace_money":100.00,"m_name":"信用贷201612221036048236583","m_number":"03110102136","p_rated_money":73320.00,"m_supple_money":0.00,"m_parent_id":98,"p_rating_money":0.00,"p_id":63,"m_is_overdue":"0"},{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":65,"m_full_time":"2016-12-22 11:29:58","m_project_no_fouiou":"0021822000000020473","p_project_status":"7","m_rated_money":62040.00,"m_id_no":"350521197508100899","p_project_money":62040.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-22 11:29:58","p_stop_days":3,"m_create_time":"2016-12-22 11:16:13","m_is_flow":"0","m_status":"2","m_product_type":"10","p_buy_type":"1","m_id":103,"p_plan_type":"0","m_start_time":"2016-12-22 11:22:20","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-22 11:20:28","m_project_status":"7","m_money":62040.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612221116130647068","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03120102106","qqq":0.99998388162666623684,"p_buy_limit_money":1000000.00,"m_copy_mark":1,"m_borrow_type":"1","m_debt_id":110,"m_is_earlyback":"0","m_debt_equity":62040.00,"p_start_investmoney":100.00,"p_start_time":"2016-12-22 11:22:20","p_increace_money":100.00,"m_name":"信用贷201612221116130647068","m_number":"03120102106","p_rated_money":62040.00,"m_supple_money":0.00,"m_parent_id":103,"p_rating_money":0.00,"p_id":65,"m_is_overdue":"0"}],"user":{"u_user_security_level
+02-07 17:56:38.104 E/Home    (13152): {"status":"1","message":"成功","data":{"standardPowderInfo":[{"xx":3,"m_overdue_service_fee":0.00,"m_back_check_status":"P","m_grade":"A1","p_last_deadline":12,"m_rate":9.96,"m_project":78,"m_full_time":"2016-12-29 14:36:35","m_project_no_fouiou":"0021822000000020550","p_project_status":"7","m_rated_money":73320.00,"m_id_no":"441882199301206013","p_project_money":73320.00,"p_backmoney_way":"1","p_project_rate":9.96,"p_ratefull_time":"2016-12-29 14:36:35","p_stop_days":3,"m_create_time":"2016-12-29 10:53:18","m_is_flow":"0","m_status":"3","m_product_type":"10","p_buy_type":"1","m_id":119,"p_plan_type":"0","m_start_time":"2016-12-29 14:35:17","p_project_deadline":12,"m_way":"1","p_create_time":"2016-12-29 14:34:46","m_project_status":"7","m_money":73320.00,"m_send_chp_loaning":0,"m_type":"0","m_is_urgent":"1","p_project_name":"信用贷201612291053187151905","m_deadline":12,"p_interest_back_way":"0","p_project_number":"03110102132","qqq":0.99998636134258
